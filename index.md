@@ -1,28 +1,11 @@
 ---
-title: Home
+title: T-lab webpage Home
 ---
 
-# Your Lab Slogan
+# Welcome to the Tabima lab webpage @ Clark University
 
-[Lab Website Template](https://github.com/greenelab/lab-website-template) is an easy-to-use, flexible website template for [labs](https://www.greenelab.com/), with automatic citations, GitHub tag imports, pre-built components, and more.
-Spend less time reinventing the wheel, and more time running your lab.
-  
-{%
-  include link.html
-  type="github"
-  icon=""
-  text="See the template on GitHub"
-  link="greenelab/lab-website-template"
-  style="button"
-%}
-{%
-  include link.html
-  type="docs"
-  icon=""
-  text="See the documentation"
-  link="https://github.com/greenelab/lab-website-template/wiki"
-  style="button"
-%}
+The T-lab is interested in identifying the patterns of genomic evolution of fungal species and populations, specially focused on the evolution, systematics, and the genomics of secondary metabolism of the genus *Basidiobolus*.
+
 {:.center}
 
 {% include section.html full=true %}
@@ -34,39 +17,22 @@ Spend less time reinventing the wheel, and more time running your lab.
 # Highlights
 
 {% capture text %}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Our research consists in a multidisciplinary approach of integrating tools and concepts from evolutionary theory, computational biology, genomics, genetics and plant pathology/mycology in order to study these phenomena, as well as to create computational and molecular tools for the rapid identification of species, populations, genes of interest and molecular patterns of fungal evolution.
 
-[See what we've published &nbsp;→](research)
+[Our list of publications &nbsp;→](research)
 {:.center}
 {% endcapture %}
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/pubs.jpg"
   link="research"
   headline="Our Research"
   text=text
 %}
 
 {% capture text %}
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-[See our resources &nbsp;→](resources)
-{:.center}
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="resources"
-  headline="Our Resources"
-  text=text
-%}
-
-{% capture text %}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+The T-lab is comprised by phenomenal undergraduates and graduate students of Clark University with different scopes of interest
 
 [Meet our team &nbsp;→](team)
 {:.center}
@@ -74,8 +40,23 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/team.jpg"
   link="team"
   headline="Our Team"
+  text=text
+%}
+
+{% capture text %}
+(*Page in progress*) Here we store our tools, data sets and other elements of our research
+
+[See our resources &nbsp;→](resources)
+{:.center}
+{% endcapture %}
+
+{%
+  include feature.html
+  image="images/resources.jpg"
+  link="resources"
+  headline="Our Resources"
   text=text
 %}

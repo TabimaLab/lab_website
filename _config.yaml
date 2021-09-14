@@ -6,16 +6,15 @@ description: An easy-to-use, flexible website template for labs, with automatic 
 logo: images/logo.svg
 header: images/background.jpg
 footer: images/background.jpg
-baseurl: /lab-website-template
+baseurl: ""
 
 # site social media and other links
 links:
-  email: jane.smith@your-lab.com
-  google-scholar: Jane Smith
-  github: your-lab
-  twitter: YourLabHandle
-  instagram: YourLabHandle
-  youtube: YourLabChannel
+  email: jtabima@clarku.edu
+  google-scholar: Javier F. Tabima
+  github: TabimaLab
+  twitter: Tabima
+
 
 # automatic citations
 auto-cite:
