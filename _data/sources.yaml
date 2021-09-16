@@ -1,33 +1,11 @@
-- id: doi:10.1016/j.csbj.2020.05.017
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
-  date: 2020-6-2
-  extra-links:
-    - type: manubot
-      link: https://greenelab.github.io/knowledge-graph-review/
+- id: doi:10.1534/g3.120.401516
+  image: https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/g3journal/10/9/10.1534_g3.120.401516/7/m_3417f3.jpeg
+  date: 2020-9-1
   tags:
-    - knowledge graphs
+    - Basidiobolus SM Genomics
 
-- id: doi:10.1371/journal.pcbi.1007128
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
-  repo: greenelab/meta-review
-  extra-links:
-    - type: manubot
-      link: https://greenelab.github.io/meta-review/
-    - type: source
-      link: https://github.com/greenelab/meta-review
-    - type: website
-      link: http://manubot.org/
+- id: doi:10.1126/science.aba5256
+  image: https://www.science.org/cms/10.1126/science.aba5256/asset/1559f60b-f99a-4a15-b040-b1c611e6652c/assets/graphic/368_aba5256_fa.jpeg
 
-- id: doi:10.7554/eLife.32822
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
-  extra-links:
-    - type: preprint
-      link: https://doi.org/10.7287/peerj.preprints.3100v1
-    - type: manubot
-      link: https://greenelab.github.io/scihub-manuscript/
-    - type: source
-      link: https://github.com/greenelab/scihub-manuscript
-      text: Manuscript source
-    - type: source
-      link: https://github.com/greenelab/scihub
-      text: Analyses source
+- id: doi:10.1094/MPMI-05-19-0131-R
+  image: https://apsjournals.apsnet.org/cms/10.1094/MPMI-05-19-0131-R/asset/images/medium/mpmi-05-19-0131-r_f1.gif
