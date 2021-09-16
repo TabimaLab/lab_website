@@ -17,7 +17,6 @@ The T-lab is interested in identifying the patterns of genomic evolution of fung
 # Highlights
 
 {% capture text %}
-Our research consists in a multidisciplinary approach of integrating tools and concepts from evolutionary theory, computational biology, genomics, genetics and plant pathology/mycology in order to study these phenomena, as well as to create computational and molecular tools for the rapid identification of species, populations, genes of interest and molecular patterns of fungal evolution.
 
 [Our list of publications &nbsp;→](research)
 {:.center}
