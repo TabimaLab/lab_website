@@ -2,7 +2,7 @@
 name: Maddie Hincher
 image: images/members/mhincher.jpg
 description: Undergrad and masters student
-role: phd
+role: undergrad
 group: alum
 aliases:
   - M. Hincher
