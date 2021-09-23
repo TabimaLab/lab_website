@@ -15,7 +15,7 @@ The T-lab is interested in identifying the patterns of genomic evolution of fung
 {% include section.html %}
 
 {% capture text %}
-A list of our highlighted publications and research made by lab members
+A list of our highlighted publications and research made by our lab members.
 
 [Our list of publications &nbsp;→](research)
 {:.left}
