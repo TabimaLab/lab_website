@@ -1,6 +1,6 @@
 ---
 name: Maddie Hincher
-image: _members/mhincher.jpg
+image: images/members/mhincher.jpg
 description: Undergrad and masters student
 role: phd
 group: alum
