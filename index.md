@@ -15,10 +15,10 @@ The T-lab is interested in identifying the patterns of genomic evolution of fung
 {% include section.html %}
 
 {% capture text %}
-A list of our highlighted publications and research mae by lab members
+A list of our highlighted publications and research made by lab members
 
 [Our list of publications &nbsp;→](research)
-{:.center}
+{:.left}
 {% endcapture %}
 
 {%
@@ -48,7 +48,7 @@ The T-lab is comprised by phenomenal undergraduates and graduate students of Cla
 (*Page in progress*) Here we store our tools, data sets and other elements of our research
 
 [See our resources &nbsp;→](resources)
-{:.center}
+{:.right}
 {% endcapture %}
 
 {%
