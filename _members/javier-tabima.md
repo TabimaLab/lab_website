@@ -1,9 +1,9 @@
 ---
 name: Javier F. Tabima
-image: images/members/jtabima.jpg
-description: Principal Investigator
 role: pi
 group: current
+image: images/members/jtabima.jpg
+description: Principal Investigator
 aliases:
   - J. Tabima
   - J. F. Tabima
