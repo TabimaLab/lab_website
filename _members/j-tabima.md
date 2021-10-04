@@ -2,7 +2,7 @@
 name: Javier Tabima
 image: images/members/jtabima.jpg
 description: Principal Investigator
-role: undergrad
+role: pi
 group: alum
 aliases:
   - J. F. Tabima
