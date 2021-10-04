@@ -6,19 +6,18 @@ title: T-lab webpage Home
 
 {% include banner.html image="images/banner.jpg" %}
 
-{:.center}
+{% include section.html %}
+
 # Welcome to the Tabima lab webpage @ Clark University
 
 The T-lab is interested in identifying the patterns of genomic evolution of fungal species and populations, specially focused on the evolution, systematics, and the genomics of secondary metabolism of the genus *Basidiobolus*.
 
 {:.center}
 
-{% include section.html %}
-
 {% capture text %}
 A list of our highlighted publications and research made by our lab members.
 
-**[Our list of publications &nbsp;→](research)**
+[Our list of publications &nbsp;→](research)
 {:.left}
 {% endcapture %}
 

@@ -28,7 +28,7 @@ The T-lab is comprised by phenomenal undergraduates and graduate students of Cla
 
 {% include section.html background="images/banner.jpg" dark=true%}
 
-We are always interested in potential Ph. D. students or Postdoctoral researchs that want to join the team!
+We are always interested in potential Ph. D. students or Postdoctoral researchers that want to join the team!
 
 {%
   include link.html
