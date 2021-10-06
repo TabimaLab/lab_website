@@ -5,8 +5,9 @@ description: Principal Investigator
 role: pi
 group: alum
 aliases:
-  - J. F. Tabima
+ - J. F. Tabima
 links:
+  twitter: tabima
   orcid: 0000-0002-3603-2691
   email: jtabima@clarku.edu
   twitter: tabima
