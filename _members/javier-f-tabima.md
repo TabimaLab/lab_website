@@ -11,6 +11,9 @@ links:
   email: jtabima@clarku.edu
   github: Tabima
   google: t1P5G4QAAAAJ
+  twitter: tabima
+  orcid: 0000-0002-3603-2691
+
 ---
 
 I’m an Assistant Professor of Genomics at the Department of Biology of Clark University. My lab is interested in identifying the patterns of genomic evolution of fungal species and populations, specially focused on the evolution, systematics, and the genomics of secondary metabolism of the genus *Basidiobolus*.
