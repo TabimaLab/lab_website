@@ -7,11 +7,11 @@ group: alum
 aliases:
   - J. F. Tabima
 links:
- - orcid: 0000-0002-3603-2691
- - email: jtabima@clarku.edu
- - twitter: tabima
- - google-scholar: Javier F. Tabima
- - github:Tabima
+  orcid: 0000-0002-3603-2691
+  email: jtabima@clarku.edu
+  twitter: tabima
+  google-scholar: Javier F. Tabima
+  github:Tabima
 ---
 
 I’m an Assistant Professor of Genomics at the Department of Biology of Clark University. My lab is interested in identifying the patterns of genomic evolution of fungal species and populations, specially focused on the evolution, systematics, and the genomics of secondary metabolism of the genus *Basidiobolus*.
