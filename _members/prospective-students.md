@@ -1,7 +1,7 @@
 ---
 name: Information for prospective students
 image: images/members/hiring.png
-description: Information for prospective graduate students
+description: 
 role: undergrad
 group: alum
 links:
