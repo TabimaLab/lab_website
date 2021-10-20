@@ -7,7 +7,7 @@ group: alum
 aliases:
  - C. McIlvenna
 links:
-- GitHub https://github.com/TabimaLab/genomeAssemblerGovenor
+  github: https://github.com/TabimaLab/genomeAssemblerGovenor
 ___
 
 
