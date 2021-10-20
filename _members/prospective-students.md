@@ -1,4 +1,4 @@
-___
+---
 name: Information for prospective students
 image: images/members/hiring.png
 description: Information for prospective graduate students
@@ -6,7 +6,7 @@ role: undergrad
 group: alum
 links:
   email: jtabima@clarku.edu
-___
+---
 
 We are always looking for Ph.D. students interested in genomics, population genetics, and diversity and molecular systematics of microbial fungal species. 
 
