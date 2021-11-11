@@ -4,6 +4,8 @@ image: images/members/hiring.png
 description: 
 role: job-ad
 group: alum
+links:
+  email: jtabima@clarku.edu
 ---
 
 We are always looking for Ph.D. students interested in genomics, population genetics, and diversity and molecular systematics of microbial fungal species. 
