@@ -23,4 +23,6 @@ The position will have guaranteed tuition remission, and a stipend for five year
 
 If interested, please contact Dr. Javier F. Tabima at the email link above, and include a short cover letter describing your interest in joining the lab, unofficial transcripts, an updated CV, and names and contact of two or three professional references.
 
+**Please check the [Lab Expectations](https://tabima-lab.netlify.app/2021/11/11/lab-expectations.html) page before you apply so you can understand the lab culture in our research group!**
+
 (Also, please ignore the button in the bottom of "Prospective Students’s papers". Its part of the page and I'm figuring out how to remove it :) 
