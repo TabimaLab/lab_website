@@ -2,10 +2,8 @@
 name: Information for prospective students
 image: images/members/hiring.png
 description: 
-role: undergrad
+role: job-ad
 group: alum
-links:
-  email: jtabima@clarku.edu
 ---
 
 We are always looking for Ph.D. students interested in genomics, population genetics, and diversity and molecular systematics of microbial fungal species. 
@@ -21,4 +19,6 @@ The candidate should have an interest in:
 
 The position will have guaranteed tuition remission, and a stipend for five years. Teaching assistantships will be provided, and research assistantships may become available based on funding status.
 
-If interested, please contact Dr. Javier F. Tabima and include a short cover letter describing your interest in joining the lab, unofficial transcripts, an updated CV, and names and contact of two or three professional references.
+If interested, please contact Dr. Javier F. Tabima at the email link above, and include a short cover letter describing your interest in joining the lab, unofficial transcripts, an updated CV, and names and contact of two or three professional references.
+
+(Also, please ignore the button in the bottom of "Prospective Students’s papers". Its part of the page and I'm figuring out how to remove it :) 

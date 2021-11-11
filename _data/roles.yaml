@@ -21,3 +21,7 @@ programmer:
 mascot:
   icon: fas fa-dog
   text: Mascot
+
+job-ad:
+  icon: fas fa-plus-square
+  text: Job Opportunities!
