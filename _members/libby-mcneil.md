@@ -1,5 +1,5 @@
 ---
-Name: Libby McNeil
+name: Libby McNeil
 image: images/members/libby.jpg
 description: Undergraduate Student
 role: undergrad
