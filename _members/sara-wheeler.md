@@ -1,7 +1,7 @@
 ---
 name: Sara Wheeler
 image: images/members/sara_image.png
-description: Undergrad student and Lab assistant
+description: Undergrad Student
 role: undergrad
 group: alum
 aliases:

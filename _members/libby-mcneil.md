@@ -5,7 +5,7 @@ description: Undergraduate Student
 role: undergrad
 group: alum
 aliases:
-  - S. Wheeler
+  - L. McNeil
 links:
 ---
 
