@@ -1,5 +1,5 @@
 ---
-Name: Manning DelCogliano
+name: Manning DelCogliano
 image: images/members/manning.jpg
 description: Undergraduate student and Lab Assistant
 role: undergrad

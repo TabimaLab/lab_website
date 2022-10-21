@@ -1,6 +1,6 @@
 ---
 name: Liam Cleary
-image: images/members/liam.jpg
+image: images/members/liam.jpeg
 description: PhD Student
 role: phd
 group: current
