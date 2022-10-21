@@ -10,15 +10,15 @@ phd:
   icon: fas fa-graduation-cap
   text: PhD Student
 
-phd:
-  icon: fas fa-graduation-cap
-  text: PhD Student
-
 msc:
   icon: fas fa-user-graduate
   text: Master's student
 
-Alumni:
+undergrad:
+  icon: fas fa-chalkboard-user
+  text: Undergrad student
+  
+alumni:
   icon: fas fa-code
   text: Former lab member
 

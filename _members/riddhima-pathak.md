@@ -1,7 +1,7 @@
 ---
 name: Riddhima Pathak
 image: images/members/ridds.jpg
-description: Undergrad student
+description: Former Undergrad student
 role: alumni
 group: alum
 aliases:
