@@ -10,9 +10,17 @@ phd:
   icon: fas fa-graduation-cap
   text: PhD Student
 
-undergrad:
+phd:
+  icon: fas fa-graduation-cap
+  text: PhD Student
+
+msc:
   icon: fas fa-user-graduate
-  text: Undergraduate Student
+  text: Master's student
+
+Alumni:
+  icon: fas fa-code
+  text: Former lab member
 
 programmer:
   icon: fas fa-code

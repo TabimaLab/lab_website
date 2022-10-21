@@ -1,9 +1,9 @@
 ---
 name: Sara Wheeler
-image: images/members/sara_image.png
+image: images/members/sara.jpg
 description: Undergrad Student
 role: undergrad
-group: alum
+group: current
 aliases:
   - S. Wheeler
 links:
