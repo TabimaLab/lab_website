@@ -15,7 +15,7 @@ msc:
   text: Master's student
 
 undergrad:
-  icon: fas fa-chalkboard-user
+  icon: fas fa-school
   text: Undergrad student
   
 alumni:
