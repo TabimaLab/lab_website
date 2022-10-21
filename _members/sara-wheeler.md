@@ -1,8 +1,8 @@
 ---
 name: Sara Wheeler
 image: images/members/sara.jpg
-description: Undergrad Student
-role: undergrad
+description: Undergrad Student and Masters student
+role: msc
 group: current
 aliases:
   - S. Wheeler

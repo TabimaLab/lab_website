@@ -1,7 +1,7 @@
 ---
 name: Maddie Hincher
 image: images/members/mhincher.jpg
-description: Undergrad and masters student
+description: Masters student
 role: msc
 group: current
 aliases:
