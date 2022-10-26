@@ -9,4 +9,4 @@ aliases:
 links:
 ---
 
-Maddie is master's student at the T-lab. Her research focus is on environmental DNA, assays for diversity and identification of *Basidiobolus* across different samples and molecualr biology and bioinformatics.
+Maddie is master's student at the T-lab. Her research focus is on environmental DNA, assays for diversity and identification of *Basidiobolus* across different samples and molecular biology and bioinformatics.
