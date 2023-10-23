@@ -1,7 +1,7 @@
 ---
 name: Libby McNeil
 image: images/members/libby.jpg
-description: Undergraduate Student
+description: Former Undergraduate Student
 role: alumni
 group: alum
 aliases:

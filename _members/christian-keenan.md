@@ -1,7 +1,7 @@
 ---
 name: Christian Keenan
 image: images/members/christian.jpg
-description: Undergraduate Student
+description: Former Undergraduate Student
 role: alumni
 group: alum
 aliases:
