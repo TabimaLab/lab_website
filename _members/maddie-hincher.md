@@ -1,7 +1,7 @@
 ---
 name: Maddie Hincher
 image: images/members/mhincher.jpg
-description: Masters student
+description: Lab Queen
 role: msc
 group: current
 aliases:

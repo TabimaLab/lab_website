@@ -2,8 +2,8 @@
 name: Libby McNeil
 image: images/members/libby.jpg
 description: Undergraduate Student
-role: undergrad
-group: current
+role: alumni
+group: alum
 aliases:
   - L. McNeil
 links:

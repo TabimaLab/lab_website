@@ -1,7 +1,7 @@
 ---
 name: Jasper Carleton
 image: images/members/jasper.jpg
-description: Undergrad student and Laboratory Assistant
+description: Undergrad student
 role: undergrad
 group: current
 aliases:
