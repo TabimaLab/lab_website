@@ -1,10 +1,10 @@
 ---
 name: Carmella Martone
-image: images/members/placeholder.jpg
+image: images/members/carmella.jpg
 description: Undergraduate Student
 role: undergrad
 group: current
 aliases:
-  - C. Keenan
+  - C. Martone
 links:
 ---

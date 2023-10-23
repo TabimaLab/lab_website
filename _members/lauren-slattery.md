@@ -1,6 +1,6 @@
 ---
 name: Lauren Slattery
-image: images/members/lauren.jpeg
+image: images/members/lauren.jpg
 description: PhD Student
 role: phd
 group: current
