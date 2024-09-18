@@ -1,11 +1,11 @@
 ---
-name: Lauren Slattery
+name: Lauren Parry
 image: images/members/lauren.jpg
 description: PhD Student
 role: phd
 group: current
 aliases:
-  - L. Slattery
+  - L. Parry
 links:
 ---
 
