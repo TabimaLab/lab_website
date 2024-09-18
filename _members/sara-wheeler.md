@@ -2,7 +2,7 @@
 name: Sara Wheeler
 image: images/members/sara.jpg
 description: Former Masters Student
-role: alum
+role: alumni
 group: alum
 aliases:
   - S. Wheeler

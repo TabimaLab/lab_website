@@ -2,7 +2,7 @@
 name: Manning DelCogliano
 image: images/members/manning.jpg
 description: Former Masters Student
-role: alum
+role: alumni
 group: alum
 aliases:
  M. DelCogliano
