@@ -1,9 +1,9 @@
 ---
 name: Manning DelCogliano
 image: images/members/manning.jpg
-description: Masters Student
+description: Former Masters Student
 role: msc
-group: current
+group: alum
 aliases:
  M. DelCogliano
 ---

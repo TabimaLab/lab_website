@@ -1,14 +1,19 @@
 ---
 name: Liam Cleary
 image: images/members/liam.jpeg
-description: PhD Student
+description: PhD Student and Safety Officer
 role: phd
 group: current
 aliases:
   - L. Cleary
 links:
+  - LinkedIn: www.linkedin.com/in/lcleary30
 ---
 
-Liam is the Tabima Lab's first Ph.D. student and as of fall 2022 is still deciding on the direction of his dissertation research. His current efforts are focused on extracting high molecular weight DNA from *Basidiobolus* isolates for genome sequencing.
+Liam is a PhD student in the Biology Department at Clark University. His work focuses on the phylogenomics and population genomics of *Basidiobolus*.
 
-Liam completed his B.S. in Plant and Soil Sciences at UMass Amherst where he studied how bees interact with magnolia flowers. After graduating, he worked as a lab technician at the Boyce Thompson Institute at Cornell University. His research focused on the molecular mechanisms underlying bacterial pathogenesis of tomato plants
+He is interested in assessing species boundaries throughout the genus and examining patterns of evolution between Basidiobolus populations.
+
+Before joining the lab, Liam was a laboratory technician at the Boyce Thompson Institute where he studied genetic immunity in plants.
+
+His background in plant pathology extends into his undergraduate studies where he completed his BS in Plant and Soil Sciences at the University of Massachusetts Amherst in 2020.

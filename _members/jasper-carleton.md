@@ -1,12 +1,12 @@
 ---
 name: Jasper Carleton
 image: images/members/jasper.jpg
-description: Undergrad student
-role: undergrad
+description:  Masters student, Frog Catcher Supreme
+role: msc
 group: current
 aliases:
   - J. Carleton
 links:
+  - LinkedIn: https://www.linkedin.com/in/jasper-carleton-68171320a/
 ---
-
-Jasper focuses on sporulation of *Basidiobolus* and other culturing methods. In their free time they like to read fiction and fantasy, play video games, and listen to music.
+Jasper is a master's student at the Tabima Lab. Their master's thesis will focus on genomic features of *Basidiobolus*, mainly the diversity and range of secondary metabolites across several samples. They have also been involved in amphibian capture, isolation of *Basidiobolus* from fecal and environmental samples, culturing, DNA extraction, and PCR amplification. They received a Bachelor's Degree with Highest Honors in Biology from Clark University in 2024 and are expected to graduate with a Masters in 2025.
