@@ -24,6 +24,13 @@ The T-lab is comprised by phenomenal undergraduates and graduate students of Cla
   include list.html
   data="members"
   component="portrait"
+  filters="role: postdoc"
+%}
+
+{%
+  include list.html
+  data="members"
+  component="portrait"
   filters="role: phd"
 %}
 

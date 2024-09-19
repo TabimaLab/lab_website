@@ -1,9 +1,9 @@
 ---
 name: Maddie Hincher
 image: images/members/mhincher.jpg
-description: Lab Queen
-role: msc
-group: current
+description: Eternal Lab Queen
+role: alumni
+group: alum
 aliases:
   - M. Hincher
 links:
