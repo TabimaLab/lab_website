@@ -1,6 +1,6 @@
 ---
 name: Liam Cleary
-image: images/members/liam.jpeg
+image: images/members/liam.jpg
 description: PhD Student and Safety Officer
 role: phd
 group: current
