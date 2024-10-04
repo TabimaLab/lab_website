@@ -10,7 +10,9 @@ title: T-lab webpage Home
 
 # Welcome to the Tabima lab webpage @ Clark University
 
-The T-lab is interested in identifying the patterns of genomic evolution of fungal species and populations, specially focused on the evolution, systematics, and the genomics of secondary metabolism of the genus *Basidiobolus*.
+Fungi are widely known as molds and mushrooms, but there is a gigantic diversity of microscopic fungi that we don't know. The research group of Javier Tabima Restrepo aims to understanding the diversity, genomics, evolution and ecology of micro-fungal species associated with multiple hosts and ecosystems.
+
+Using the genus *Basidiobolus* as model, the T-lab focuses on studying the evolution of host-fungal interactions, the role of secondary metabolism in fungal biology, how fungal populations evolve and the delicate interactions between fungi and bacterial species in the gastrointestinal tracts.
 
 {:.center}
 
