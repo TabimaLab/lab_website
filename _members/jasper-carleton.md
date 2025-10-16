@@ -2,8 +2,8 @@
 name: Jasper Carleton
 image: images/members/jasper.jpg
 description:  Masters student, Frog Catcher Supreme
-role: msc
-group: current
+role: alumni
+group: alumn
 aliases:
   - J. Carleton
 links:

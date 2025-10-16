@@ -9,4 +9,4 @@ aliases:
 links:
 ---
 
-Sarah is an undergrad in the T-lab interested in ecology, conservation and genomics. She's also the lab assistant of the T-lab, in charge of culturing, storing and helping everyone in the lab.
+Sara is an undergrad in the T-lab interested in ecology, conservation and genomics. She's also the lab assistant of the T-lab, in charge of culturing, storing and helping everyone in the lab.

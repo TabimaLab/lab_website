@@ -1,9 +1,9 @@
 ---
 name: Emily Newman
 image: images/members/newman.jpg
-description: Undergrad student
-role: undergrad
-group: current
+description: Former Undergrad student
+role: alumni
+group: alum
 aliases:
   - E. Newman
 links:
