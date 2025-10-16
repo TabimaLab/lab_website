@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {%- assign tags = include.tags | join: "," | split: "," -%}
 {%- assign repo = include.repo | strip -%}
 {%- if repo == "" -%}
@@ -12,3 +13,35 @@
     {%- endfor -%}
   </div>
 {%- endif -%}
+=======
+{% assign tags = include.tags
+  | object_items
+  | join: ","
+  | downcase
+  | split: ","
+  | array_filter
+  | join: ","
+  | regex_replace: "\s+", "-"
+  | split: ","
+  | uniq
+%}
+{% assign link = include.link | default: page.dir %}
+{% if tags.size > 0 or include.repo %}
+  <div
+    class="tags"
+    {% if include.repo %}
+      data-repo="{{ include.repo | xml_escape }}"
+    {% endif %}
+  >
+    {% for tag in tags %}
+      <a
+        href="{{ link | relative_url }}?search=&quot;tag: {{ tag }}&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;{{ tag }}&quot;"
+      >
+        {{ tag }}
+      </a>
+    {% endfor %}
+  </div>
+{% endif %}
+>>>>>>> template/main

@@ -2,6 +2,7 @@
 layout: default
 ---
 
+<<<<<<< HEAD
 <h1>{{ page.title }}</h1>
 
 {%-
@@ -11,6 +12,20 @@ layout: default
   date=page.date
   tags=page.tags
 -%}
+=======
+{% include section.html background=page.image %}
+
+<h1 class="center">{{ page.title }}</h1>
+
+{%
+  include post-info.html
+  author=page.author
+  member=page.member
+  published=page.date
+  updated=page.last_modified_at
+  tags=page.tags
+%}
+>>>>>>> template/main
 
 {% include section.html %}
 
@@ -18,4 +33,8 @@ layout: default
 
 {% include section.html %}
 
+<<<<<<< HEAD
 {%- include post-nav.html post=page -%}
+=======
+{% include post-nav.html post=page %}
+>>>>>>> template/main
