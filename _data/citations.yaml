@@ -1,5 +1,434 @@
-# GENERATED AUTOMATICALLY, DO NOT EDIT
+# DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1007/s11557-025-02090-3
+  title: 'New genomic resources for insect-vectored plant pathogenic fungal species
+    in the Ceratocystidaceae and Ophiostomataceae: Bretziella, Ceratocystis, and Ophiostoma'
+  authors:
+  - Catalina Salgado-Salazar
+  - Schyler Nunziata
+  - Shayla Bassingthwaite
+  - Jovana Jonic
+  - Kurt Zeller
+  - Kirk Broders
+  - "Yazm\xEDn Rivera"
+  - Javier F. Tabima
+  publisher: Mycological Progress
+  date: '2025-10-03'
+  link: https://doi.org/g97cmz
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1093/g3journal/jkaf152
+  title: Dissecting the function of the DNMT2-homolog (DNMA) in <i>Dictyostelium discoideum</i>
+  authors:
+  - Zaza Gelashvili
+  - Denis A Larochelle
+  - Jacqueline M Dresch
+  - Maddison Hincher
+  - Javier F Tabima
+  - Robert A Drewell
+  publisher: 'G3: Genes, Genomes, Genetics'
+  date: '2025-07-04'
+  link: https://doi.org/g97cm2
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2025.07.08.659677
+  title: "Characterization of a core fungal community and captivity-induced \u201C\
+    mycobiome\u201D change in Fowler\u2019s Toad (<i>Anaxyrus fowleri</i>)"
+  authors:
+  - Alexander J Bradshaw
+  - Sinlan Poo
+  - Tracey E. Malter
+  - Rylie M. Strasbaugh
+  - Brianna Bodner
+  - Madison R. Hincher
+  - Anne Devan-Song
+  - Javier F. Tabima
+  publisher: Cold Spring Harbor Laboratory
+  date: '2025-07-08'
+  link: https://doi.org/g97cm3
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2025.03.31.646025
+  title: Unraveling the Genomic and Phylogenetic Complexity of the understudied microfungus
+    <i>Basidiobolus:</i> Insights from 19 Newly Sequenced Genomes
+  authors:
+  - Jasper P. Carleton
+  - Alexander J. Bradshaw
+  - Liam Cleary
+  - Madison R. Hincher
+  - Kathryn Bushley
+  - Javier F. Tabima
+  publisher: Cold Spring Harbor Laboratory
+  date: '2025-04-05'
+  link: https://doi.org/g97cm4
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2025.04.01.646624
+  title: Effects of urbanization on the microbial fungal communities from water, sediment,
+    and amphibian hosts across a rural-to-urban waterway in Worcester, Massachusetts
+  authors:
+  - Sara J. Wheeler
+  - Manning DelCogliano
+  - Brennan Hare
+  - Alexander J. Bradshaw
+  - Madison R. Hincher
+  - Jasper P. Carleton
+  - Philip J. Bergmann
+  - Nathan Ahlgren
+  - Javier F. Tabima
+  publisher: Cold Spring Harbor Laboratory
+  date: '2025-04-02'
+  link: https://doi.org/g97cm5
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1080/00275514.2025.2455909
+  title: "Ubiquity and diversity of\n            <i>Basidiobolus</i>\n           \
+    \ across amphibian species inhabiting an urbanization gradient"
+  authors:
+  - Madison R. Hincher
+  - Jasper P. Carleton
+  - Sara J. Wheeler
+  - Manning DelCogliano
+  - Kaitlyn Mathis
+  - Javier F. Tabima
+  publisher: Mycologia
+  date: '2025-02-28'
+  link: https://doi.org/g97cm6
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1111/ecog.07012
+  title: Climatic variability, spatial heterogeneity and the presence of multiple
+    hosts drive the population structure of the pathogen <i>Phytophthora ramorum</i>
+    and the epidemiology of Sudden Oak Death
+  authors:
+  - Melina Kozanitas
+  - Brian J. Knaus
+  - Javier F. Tabima
+  - "Niklaus J. Gr\xFCnwald"
+  - Matteo Garbelotto
+  publisher: Ecography
+  date: '2024-01-31'
+  link: https://doi.org/g97cm7
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1128/msphere.00475-23
+  title: 'Herptile gut microbiomes: a natural system to study multi-kingdom interactions
+    between filamentous fungi and bacteria'
+  authors:
+  - "Lluvia Vargas-Gast\xE9lum"
+  - Alexander S. Romer
+  - Marjan Ghotbi
+  - Jason W. Dallas
+  - N. Reed Alexander
+  - Kylie C. Moe
+  - Kerry L. McPhail
+  - George F. Neuhaus
+  - Leila Shadmani
+  - Joseph W. Spatafora
+  - Jason E. Stajich
+  - Javier F. Tabima
+  - Donald M. Walker
+  publisher: mSphere
+  date: '2024-03-26'
+  link: https://doi.org/g97cm8
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.fsi.2024.109580
+  title: Population-level immunologic variation in wild threespine stickleback (Gasterosteus
+    aculeatus)
+  authors:
+  - Anika M. Wohlleben
+  - Javier F. Tabima
+  - "N\xE9va P. Meyer"
+  - Natalie C. Steinel
+  publisher: Fish &amp; Shellfish Immunology
+  date: '2024-06-01'
+  link: https://doi.org/g97cm9
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2023.07.18.547692
+  title: "Exploring Gene Expression Patterns and Evolutionary Responses in Host-Parasite\
+    \ inteactions: Insights from the<i>Schistocephalus solidus</i>\u2013 Threespine\
+    \ stickleback System"
+  authors:
+  - Anika M. Wohlleben
+  - Javier F. Tabima
+  - "N\xE9va P. Meyer"
+  - Natalie C. Steinel
+  publisher: Cold Spring Harbor Laboratory
+  date: '2023-07-19'
+  link: https://doi.org/g97cnb
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1094/MPMI-06-22-0133-R
+  title: Comparative Genomic Analysis of 31 <i>Phytophthora</i> Genomes Reveals Genome
+    Plasticity and Horizontal Gene Transfer
+  authors:
+  - Brent A. Kronmiller
+  - Nicolas Feau
+  - Danyu Shen
+  - Javier F. Tabima
+  - Shahin S. Ali
+  - "Andrew\_D. Armitage"
+  - Felipe Arredondo
+  - Bryan A. Bailey
+  - Stephanie R. Bollmann
+  - Angela Dale
+  - "Richard\_J. Harrison"
+  - Kelly Hrywkiw
+  - Takao Kasuga
+  - Rebecca McDougal
+  - Charlotte F. Nellist
+  - Preeti Panda
+  - Sucheta Tripathy
+  - Nari M. Williams
+  - Wenwu Ye
+  - Yuanchao Wang
+  - "Richard\_C. Hamelin"
+  - "Niklaus J. Gr\xFCnwald"
+  publisher: "Molecular Plant-Microbe Interactions\xAE"
+  date: '2023-01-01'
+  link: https://doi.org/g97cnc
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1094/PHP-11-22-0119-BR
+  title: First Report of <i>Pyricularia oryzae</i> Causing Gray Leaf Spot of Perennial
+    Ryegrass (<i>Lolium perenne</i>) in Oregon
+  authors:
+  - E. Braithwaite
+  - R. Wang
+  - A. Kowalewski
+  - J. F. Tabima
+  - T. N. Temple
+  - H. M. Rivedal
+  publisher: Plant Health Progress
+  date: '2023-01-01'
+  link: https://doi.org/g97cnd
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2023.08.23.554450
+  title: 'Herptile gut microbiomes: a natural system to study multi-kingdom interactions
+    between filamentous fungi and bacteria'
+  authors:
+  - "Lluvia Vargas-Gast\xE9lum"
+  - Alexander S. Romer
+  - N. Reed Alexander
+  - Marjan Ghotbi
+  - Kylie C. Moe
+  - Kerry L. McPhail
+  - George F. Neuhaus
+  - Leila Shadmani
+  - Joseph W. Spatafora
+  - Jason E. Stajich
+  - Javier F. Tabima
+  - Donald M. Walker
+  publisher: Cold Spring Harbor Laboratory
+  date: '2023-08-25'
+  link: https://doi.org/gsnctc
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1094/PDIS-08-22-1965-RE
+  title: Rapid New Diagnostic LAMP (Loop-Mediated Isothermal Amplification) Assays
+    to Distinguish Among the Four Lineages of <i>Phytophthora ramorum</i>
+  authors:
+  - "Kelsey L. S\xF8ndreli"
+  - Javier F. Tabima
+  - Jared M. LeBoldus
+  publisher: Plant Disease
+  date: '2023-10-31'
+  link: https://doi.org/g97cnf
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1094/MPMI-07-23-0091-R
+  title: Secreted Effector Proteins of Poplar Leaf Spot and Stem Canker Pathogen <i>Sphaerulina
+    musiva</i> Manipulate Plant Immunity and Contribute to Virulence in Diverse Ways
+  authors:
+  - Yao Zhao
+  - Xinyue Zheng
+  - Javier F. Tabima
+  - Sheng Zhu
+  - "Kelsey L. S\xF8ndreli"
+  - Hope Hundley
+  - Diane Bauer
+  - Kerrie Barry
+  - Yaxin Zhang
+  - Jeremy Schmutz
+  - Yuanchao Wang
+  - Jared M. LeBoldus
+  - Qin Xiong
+  publisher: "Molecular Plant-Microbe Interactions\xAE"
+  date: '2023-12-01'
+  link: https://doi.org/g97cng
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1093/nargab/lqad035
+  title: The <i>Dictyostelium discoideum</i> genome lacks significant DNA methylation
+    and uncovers palindromic sequences as a source of false positives in bisulfite
+    sequencing
+  authors:
+  - Robert A Drewell
+  - Tayla C Cormier
+  - Jacob L Steenwyk
+  - James St Denis
+  - "Javier\_F Tabima"
+  - "Jacqueline\_M Dresch"
+  - "Denis\_A Larochelle"
+  publisher: NAR Genomics and Bioinformatics
+  date: '2023-03-29'
+  link: https://doi.org/g97cnh
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1094/PDIS-09-20-2090-RE
+  title: Identity and Pathogenicity of Fungi Associated with Root, Crown, and Vascular
+    Symptoms Related to Winter Squash Yield Decline
+  authors:
+  - Hannah M. Rivedal
+  - Javier F. Tabima
+  - Alexandra G. Stone
+  - Kenneth B. Johnson
+  publisher: Plant Disease
+  date: '2022-06-01'
+  link: https://doi.org/g97cnj
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1094/PHYTO-05-21-0191-R
+  title: Genetic Diversity and Aggressiveness of <i>Fusarium virguliforme</i> Isolates
+    Across the Midwestern United States
+  authors:
+  - Rodrigo A. Olarte
+  - Rebecca Hall
+  - Javier F. Tabima
+  - Dean Malvick
+  - Kathryn Bushley
+  publisher: "Phytopathology\xAE"
+  date: '2022-06-01'
+  link: https://doi.org/g97cnk
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1128/mra.00151-22
+  title: "Genome Sequence of the Estuarine\n            <i>Synechococcus</i>\n   \
+    \         sp. Strain NB0720_010"
+  authors:
+  - Campbell A. MacKenzie
+  - Marcia F. Marston
+  - Javier F. Tabima
+  - Nathan A. Ahlgren
+  publisher: Microbiology Resource Announcements
+  date: '2022-08-18'
+  link: https://doi.org/g7hgf2
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1021/acs.jnatprod.2c00153
+  title: Tolypocladamide H and the Proposed Tolypocladamide NRPS in <i>Tolypocladium</i>
+    Species
+  authors:
+  - Richard M. Tehan
+  - Rheannon R. Blount
+  - Ryan L. Goold
+  - Daphne R. Mattos
+  - Nicolas R. Spatafora
+  - Javier F. Tabima
+  - Romina Gazis
+  - Chengshu Wang
+  - Jane E. Ishmael
+  - Joseph W. Spatafora
+  - Kerry L. McPhail
+  publisher: Journal of Natural Products
+  date: '2022-05-02'
+  link: https://doi.org/g97cnm
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3390/plants10030572
+  title: QTL Analysis of Adult Plant Resistance to Stripe Rust in a Winter Wheat Recombinant
+    Inbred Population
+  authors:
+  - Kali M. Brandt
+  - Xianming Chen
+  - Javier F. Tabima
+  - Deven R. See
+  - Kelly J. Vining
+  - Robert S. Zemetra
+  publisher: Plants
+  date: '2021-03-18'
+  link: https://doi.org/g97cnn
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1094/PHYTO-06-20-0232-FI
+  title: Molecular Phylogenomics and Population Structure of <i>Phytophthora pluvialis</i>
+  authors:
+  - Javier F. Tabima
+  - Lilah Gonen
+  - "Mireia G\xF3mez-Gallego"
+  - Preeti Panda
+  - "Niklaus J. Gr\xFCnwald"
+  - Everett M. Hansen
+  - Rebecca McDougal
+  - Jared M. LeBoldus
+  - Nari M. Williams
+  publisher: "Phytopathology\xAE"
+  date: '2021-01-01'
+  link: https://doi.org/ghpcdk
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3389/ffgc.2021.695981
+  title: Spatial Genetic Structure of the Insect-Vectored Conifer Pathogen Leptographium
+    wageneri Suggests Long Distance Gene Flow Among Douglas-fir Plantations in Western
+    Oregon
+  authors:
+  - Patrick I. Bennett
+  - Javier F. Tabima
+  - Anna L. Leon
+  - John Browning
+  - Michael J. Wingfield
+  - Jared M. LeBoldus
+  publisher: Frontiers in Forests and Global Change
+  date: '2021-07-28'
+  link: https://doi.org/g97cnp
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1186/s12866-020-02066-1
+  title: The type VI secretion system of Xanthomonas phaseoli pv. manihotis is involved
+    in virulence and in vitro motility
+  authors:
+  - Nathaly Andrea Montenegro Benavides
+  - Alejandro Alvarez B.
+  - Mario L. Arrieta-Ortiz
+  - Luis Miguel Rodriguez-R
+  - David Botero
+  - Javier Felipe Tabima
+  - Luisa Castiblanco
+  - Cesar Trujillo
+  - Silvia Restrepo
+  - Adriana Bernal
+  publisher: BMC Microbiology
+  date: '2021-01-06'
+  link: https://doi.org/gpcjgk
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1534/g3.120.401516
   title: Phylogenomic Analyses of Non-Dikarya Fungi Supports Horizontal Gene Transfer
     Driving Diversification of Secondary Metabolism in the Amphibian Gastrointestinal
@@ -18,9 +447,27 @@
   publisher: G3 Genes|Genomes|Genetics
   date: '2020-09-01'
   link: https://doi.org/gmnrnq
+  orcid: 0000-0002-3603-2691
+  plugin: sources.py
+  file: sources.yaml
   image: https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/g3journal/10/9/10.1534_g3.120.401516/7/m_3417f3.jpeg
   tags:
   - Basidiobolus SM Genomics
+- id: doi:10.1128/mBio.00326-20
+  title: Genome-Wide Increased Copy Number is Associated with Emergence of Dominant
+    Clones of the Irish Potato Famine Pathogen Phytophthora infestans
+  authors:
+  - Brian J. Knaus
+  - Javier F. Tabima
+  - Shankar K. Shakya
+  - Howard S. Judelson
+  - "Niklaus J. Gr\xFCnwald"
+  publisher: mBio
+  date: '2020-06-30'
+  link: https://doi.org/ghpdwr
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1126/science.aba5256
   title: Unexpected conservation and global transmission of agrobacterial virulence
     plasmids
@@ -36,9 +483,88 @@
   - Melodie L. Putnam
   - Jeff H. Chang
   publisher: Science
-  date: '2020-06-04'
+  date: '2020-06-05'
   link: https://doi.org/gg78hv
+  orcid: 0000-0002-3603-2691
+  plugin: sources.py
+  file: sources.yaml
   image: https://www.science.org/cms/10.1126/science.aba5256/asset/1559f60b-f99a-4a15-b040-b1c611e6652c/assets/graphic/368_aba5256_fa.jpeg
+- id: doi:10.1101/2020.04.08.030916
+  title: Phylogenomic analyses of non-Dikarya fungi supports horizontal gene transfer
+    driving diversification of secondary metabolism in the amphibian gastrointestinal
+    symbiont, <i>Basidiobolus</i>
+  authors:
+  - Javier Felipe Tabima
+  - Ian A. Trautman
+  - Ying Chang
+  - Yan Wang
+  - Stephen J. Mondo
+  - Asaf Salamov
+  - Igor V. Grigoriev
+  - Jason E. Stajich
+  - Joseph W. Spatafora
+  publisher: Cold Spring Harbor Laboratory
+  date: '2020-04-09'
+  link: https://doi.org/gk3q7q
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.18261/issn.1891-943x-2020-02-03
+  title: Designing a Socio-Cultural Approachfor Teaching and Learning Computational
+    Thinking
+  authors:
+  - "Francisco Buitrago-Fl\xF3rez"
+  - Giovanna Danies
+  - Javier Tabima
+  - Silvia Restrepo
+  - "Carola Hern\xE1ndez"
+  publisher: Nordic Journal of Digital Literacy
+  date: '2020-07-02'
+  link: https://doi.org/g97cnq
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1080/07060661.2019.1626910
+  title: "From genomes to forest management \u2013 tackling invasive<i>Phytophthora</i>species\
+    \ in the era of genomics"
+  authors:
+  - "S. Keri\xF6"
+  - H. A. Daniels
+  - "M. G\xF3mez-Gallego"
+  - J. F. Tabima
+  - R. R. Lenz
+  - "K. L. S\xF8ndreli"
+  - "N. J. Gr\xFCnwald"
+  - N. Williams
+  - R. Mcdougal
+  - J. M. LeBoldus
+  publisher: Canadian Journal of Plant Pathology
+  date: '2019-07-26'
+  link: https://doi.org/g97cnr
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3389/fmicb.2020.00490
+  title: Genomic Investigation of the Strawberry Pathogen Phytophthora fragariae Indicates
+    Pathogenicity Is Associated With Transcriptional Variation in Three Key Races
+  authors:
+  - Thomas M. Adams
+  - Andrew D. Armitage
+  - Maria K. Sobczyk
+  - Helen J. Bates
+  - Javier F. Tabima
+  - Brent A. Kronmiller
+  - Brett M. Tyler
+  - "Niklaus J. Gr\xFCnwald"
+  - Jim M. Dunwell
+  - Charlotte F. Nellist
+  - Richard J. Harrison
+  publisher: Frontiers in Microbiology
+  date: '2020-04-15'
+  link: https://doi.org/gnq3sn
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1094/MPMI-05-19-0131-R
   title: Population Genomic Analyses Reveal Connectivity via Human-Mediated Transport
     across <i>Populus</i> Plantations in North America and an Undescribed Subpopulation
@@ -54,4 +580,725 @@
   publisher: "Molecular Plant-Microbe Interactions\xAE"
   date: '2020-02-01'
   link: https://doi.org/gmtx6g
+  orcid: 0000-0002-3603-2691
+  plugin: sources.py
+  file: sources.yaml
   image: https://apsjournals.apsnet.org/cms/10.1094/MPMI-05-19-0131-R/asset/images/medium/mpmi-05-19-0131-r_f1.gif
+- id: doi:10.1101/860619
+  title: Genomic investigation of the strawberry pathogen <i>Phytophthora fragariae</i>
+    indicates pathogenicity is associated with transcriptional variation in three
+    key races
+  authors:
+  - Thomas M. Adams
+  - Andrew D. Armitage
+  - Maria K. Sobczyk
+  - Helen J. Bates
+  - Javier F. Tabima
+  - Brent A. Kronmiller
+  - Brett M. Tyler
+  - "Niklaus J. Gr\xFCnwald"
+  - Jim M. Dunwell
+  - Charlotte F. Nellist
+  - Richard J. Harrison
+  publisher: Cold Spring Harbor Laboratory
+  date: '2019-11-30'
+  link: https://doi.org/gkwqmm
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1094/MPMI-10-18-0279-TA
+  title: '<i>effectR</i>: An Expandable R Package to Predict Candidate RxLR and CRN
+    Effectors in Oomycetes Using Motif Searches'
+  authors:
+  - Javier F. Tabima
+  - "Niklaus J. Gr\xFCnwald"
+  publisher: "Molecular Plant-Microbe Interactions\xAE"
+  date: '2019-09-01'
+  link: https://doi.org/gpf9d9
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/633701
+  title: Genome-wide increased copy number is associated with emergence of super-fit
+    clones of the Irish potato famine pathogen <i>Phytophthora infestans</i>
+  authors:
+  - Brian J. Knaus
+  - Javier F. Tabima
+  - Shankar K. Shakya
+  - Howard S. Judelson
+  - "Niklaus J. Gr\xFCnwald"
+  publisher: Cold Spring Harbor Laboratory
+  date: '2019-05-16'
+  link: https://doi.org/gkw253
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1128/mBio.02452-18
+  title: "Mitotic Recombination and Rapid Genome Evolution in the Invasive Forest\
+    \ Pathogen\n            <i>Phytophthora ramorum</i>"
+  authors:
+  - Angela L. Dale
+  - Nicolas Feau
+  - Sydney E. Everhart
+  - Braham Dhillon
+  - Barbara Wong
+  - Julie Sheppard
+  - Guillaume J. Bilodeau
+  - Avneet Brar
+  - Javier F. Tabima
+  - Danyu Shen
+  - Clive M. Brasier
+  - Brett M. Tyler
+  - "Niklaus J. Gr\xFCnwald"
+  - Richard C. Hamelin
+  publisher: mBio
+  date: '2019-04-30'
+  link: https://doi.org/ghpdws
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1128/mBio.01280-18
+  title: Evolution of the U.S. Biological Select Agent Rathayibacter toxicus
+  authors:
+  - Edward W. Davis
+  - Javier F. Tabima
+  - Alexandra J. Weisberg
+  - Lucas Dantas Lopes
+  - Michele S. Wiseman
+  - Michael S. Wiseman
+  - Tal Pupko
+  - Michael S. Belcher
+  - Aaron J. Sechler
+  - Matt A. Tancos
+  - Brenda K. Schroeder
+  - Timothy D. Murray
+  - Douglas G. Luster
+  - William L. Schneider
+  - Elizabeth E. Rogers
+  - Fernando D. Andreote
+  - "Niklaus J. Gr\xFCnwald"
+  - Melodie L. Putnam
+  - Jeff H. Chang
+  publisher: mBio
+  date: '2018-09-05'
+  link: https://doi.org/gg78hg
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/398404
+  title: '<i>effectR</i>: An expandable R package to predict candidate effectors'
+  authors:
+  - Javier F. Tabima
+  - "Niklaus J. Gr\xFCnwald"
+  publisher: Cold Spring Harbor Laboratory
+  date: '2018-08-23'
+  link: https://doi.org/gkxb67
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1094/MPMI-10-17-0258-R
+  title: Populations of <i>Phytophthora rubi</i> Show Little Differentiation and High
+    Rates of Migration Among States in the Western United States
+  authors:
+  - Javier F. Tabima
+  - Michael D. Coffey
+  - Inga A. Zazada
+  - "Niklaus J. Gr\xFCnwald"
+  publisher: "Molecular Plant-Microbe Interactions\xAE"
+  date: '2018-06-01'
+  link: https://doi.org/gdbjfw
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1111/ppa.12812
+  title: Genetic diversity of <i>Phytophthora pluvialis</i>, a pathogen of conifers,
+    in New Zealand and the west coast of the United States of America
+  authors:
+  - S. Brar
+  - J. F. Tabima
+  - R. L. McDougal
+  - "P.\u2010Y. Dupont"
+  - N. Feau
+  - R. C. Hamelin
+  - P. Panda
+  - J. M. LeBoldus
+  - "N. J. Gr\xFCnwald"
+  - E. M. Hansen
+  - R. E. Bradshaw
+  - N. M. Williams
+  publisher: Plant Pathology
+  date: '2018-01-30'
+  link: https://doi.org/gnzg42
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3767/persoonia.2018.41.03
+  title: <i>Phytophthora betacei</i>, a new species within <i> Phytophthora</i> clade
+    1c causing late blight on <i> Solanum</i> <i> betaceum</i> in Colombia
+  authors:
+  - M.F. Mideros
+  - D.A. Turissini
+  - "N. Guayaz\xE1n"
+  - H. Ibarra-Avila
+  - G. Danies
+  - "M. C\xE1rdenas"
+  - K. Myers
+  - J. Tabima
+  - E.M. Goss
+  - A. Bernal
+  - L.E. Lagos
+  - A. Grajales
+  - L.N. Gonzalez
+  - D.E.L. Cooke
+  - W.E. Fry
+  - "N. Gr\xFCnwald"
+  - D.R. Matute
+  - S. Restrepo
+  publisher: Persoonia - Molecular Phylogeny and Evolution of Fungi
+  date: '2018-12-18'
+  link: https://doi.org/g74tph
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/115824
+  title: Whole genome sequences of the raspberry and strawberry pathogens<i>Phytophthora
+    rubi</i>and<i>P. fragariae</i>
+  authors:
+  - Javier F. Tabima
+  - Brent A. Kronmiller
+  - Caroline M. Press
+  - Brett M. Tyler
+  - Inga A. Zasada
+  - "Niklaus J. Gr\xFCnwald"
+  publisher: Cold Spring Harbor Laboratory
+  date: '2017-03-10'
+  link: https://doi.org/gkvtcm
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1094/MPMI-04-17-0081-A
+  title: Whole Genome Sequences of the Raspberry and Strawberry Pathogens <i>Phytophthora
+    rubi</i> and <i>P. fragariae</i>
+  authors:
+  - Javier F. Tabima
+  - Brent A. Kronmiller
+  - Caroline M. Press
+  - Brett M. Tyler
+  - Inga A. Zasada
+  - "Niklaus J. Gr\xFCnwald"
+  publisher: "Molecular Plant-Microbe Interactions\xAE"
+  date: '2017-10-01'
+  link: https://doi.org/gnq3tp
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.chom.2016.09.010
+  title: A Covert Operation by a Plant Pathogen
+  authors:
+  - "Jeff\_H. Chang"
+  - "Javier\_F. Tabima"
+  publisher: Cell Host &amp; Microbe
+  date: '2016-10-01'
+  link: https://doi.org/g97cns
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.7717/peerj.2279
+  title: 'Microbe-ID: an open source toolbox for microbial genotyping and species
+    identification'
+  authors:
+  - Javier F. Tabima
+  - Sydney E. Everhart
+  - Meredith M. Larsen
+  - Alexandra J. Weisberg
+  - Zhian N. Kamvar
+  - Matthew A. Tancos
+  - Christine D. Smart
+  - Jeff H. Chang
+  - "Niklaus J. Gr\xFCnwald"
+  publisher: PeerJ
+  date: '2016-08-18'
+  link: https://doi.org/gg78hn
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.7717/peerj.2222
+  title: 'Gall-ID: tools for genotyping gall-causing phytopathogenic bacteria'
+  authors:
+  - Edward W. Davis II
+  - Alexandra J. Weisberg
+  - Javier F. Tabima
+  - Niklaus J. Grunwald
+  - Jeff H. Chang
+  publisher: PeerJ
+  date: '2016-07-19'
+  link: https://doi.org/gg78hk
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1094/pdis-11-15-1247-re
+  title: SNP-Based Differentiation of <i>Phytophthora infestans</i> Clonal Lineages
+    Using Locked Nucleic Acid Probes and High-Resolution Melt Analysis
+  authors:
+  - Zachariah R. Hansen
+  - Brian J. Knaus
+  - Javier F. Tabima
+  - Caroline M. Press
+  - Howard S. Judelson
+  - "Niklaus J. Gr\xFCnwald"
+  - Christine D. Smart
+  publisher: Plant Disease
+  date: '2016-07-01'
+  link: https://doi.org/f8rk58
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.7287/peerj.preprints.1998v3
+  title: 'Gall-ID: tools for genotyping gall-causing phytopathogenic bacteria'
+  authors:
+  - Edward W Davis II
+  - Alexandra J Weisberg
+  - Javier F Tabima
+  - Niklaus J. Grunwald
+  - Jeff Chang
+  publisher: PeerJ
+  date: '2016-04-28'
+  link: https://doi.org/g97cnt
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.7287/peerj.preprints.1998
+  title: 'Gall-ID: tools for genotyping gall-causing phytopathogenic bacteria'
+  authors:
+  - Edward W Davis II
+  - Alexandra J Weisberg
+  - Javier F Tabima
+  - Niklaus J. Grunwald
+  - Jeff Chang
+  publisher: PeerJ
+  date: '2016-04-28'
+  link: https://doi.org/g97cnv
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.7287/peerj.preprints.2005v1
+  title: 'Microbe-ID: An open source toolbox for microbial genotyping and species
+    identification'
+  authors:
+  - Javier F Tabima
+  - Sydney E Everhart
+  - Meredith M Larsen
+  - Alexandra J Weisberg
+  - Zhian N Kamvar
+  - Matthew A Tancos
+  - Christine D Smart
+  - Jeff H Chang
+  - "Niklaus J Gr\xFCnwald"
+  publisher: PeerJ
+  date: '2016-04-28'
+  link: https://doi.org/g97cnw
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.7287/peerj.preprints.2005
+  title: 'Microbe-ID: An open source toolbox for microbial genotyping and species
+    identification'
+  authors:
+  - Javier F Tabima
+  - Sydney E Everhart
+  - Meredith M Larsen
+  - Alexandra J Weisberg
+  - Zhian N Kamvar
+  - Matthew A Tancos
+  - Christine D Smart
+  - Jeff H Chang
+  - "Niklaus J Gr\xFCnwald"
+  publisher: PeerJ
+  date: '2016-04-28'
+  link: https://doi.org/g97cnx
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.7287/peerj.preprints.1998v2
+  title: 'Gall-ID: tools for genotyping gall-causing phytopathogenic bacteria'
+  authors:
+  - Edward W Davis II
+  - Alexandra J Weisberg
+  - Javier F Tabima
+  - Niklaus J. Grunwald
+  - Jeff Chang
+  publisher: PeerJ
+  date: '2016-04-26'
+  link: https://doi.org/g97cnz
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.18257/raccefyn.277
+  title: Evolutionary history of the group formerly known as protists using a phylogenomics
+    approach
+  authors:
+  - Silvia Restrepo
+  - Juan Enciso
+  - Javier Tabima
+  - "Diego Mauricio Ria\xF1o-Pach\xF3n"
+  publisher: "Revista de la Academia Colombiana de Ciencias Exactas, F\xEDsicas y\
+    \ Naturales"
+  date: '2016-03-28'
+  link: https://doi.org/g58rws
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1094/PHYTO-10-15-0279-R
+  title: Genomic Analyses of Dominant U.S. Clonal Lineages of<i>Phytophthora infestans</i>Reveals
+    a Shared Common Ancestry for Clonal Lineages US11 and US18 and a Lack of Recently
+    Shared Ancestry Among All Other U.S. Lineages
+  authors:
+  - B. J. Knaus
+  - J. F. Tabima
+  - C. E. Davis
+  - H. S. Judelson
+  - "N. J. Gr\xFCnwald"
+  publisher: "Phytopathology\xAE"
+  date: '2016-11-01'
+  link: https://doi.org/g97cn2
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1111/jam.13079
+  title: "Loop\u2010mediated isothermal amplification for detection of the tomato\
+    \ and potato late blight pathogen,\n            <i>\n              <scp>P</scp>\n\
+    \              hytophthora infestans\n            </i>"
+  authors:
+  - Z.R. Hansen
+  - B.J. Knaus
+  - J.F. Tabima
+  - C.M. Press
+  - H.S. Judelson
+  - "N.J. Gr\xFCnwald"
+  - C.D. Smart
+  publisher: Journal of Applied Microbiology
+  date: '2016-03-17'
+  link: https://doi.org/g97cn3
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.funbio.2015.06.010
+  title: Five new species of entomopathogenic fungi from the Amazon and evolution
+    of neotropical Ophiocordyceps
+  authors:
+  - Tatiana I. Sanjuan
+  - Ana E. Franco-Molano
+  - Ryan M. Kepler
+  - Joseph W. Spatafora
+  - Javier Tabima
+  - "A\xEDda M. Vasco-Palacios"
+  - Silvia Restrepo
+  publisher: Fungal Biology
+  date: '2015-10-01'
+  link: https://doi.org/f7s63k
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3389/fpls.2014.00594
+  title: Annotation of a hybrid partial genome of the coffee rust (Hemileia vastatrix)
+    contributes to the gene repertoire catalog of the Pucciniales
+  authors:
+  - Marco A. Cristancho
+  - David Octavio Botero-Rozo
+  - William Giraldo
+  - Javier Tabima
+  - "Diego Mauricio Ria\xC3\xB1o-Pach\xC3\xB3n"
+  - Carolina Escobar
+  - Yomara Rozo
+  - Luis F. Rivera
+  - "Andr\xC3\xA9s Dur\xC3\xA1n"
+  - Silvia Restrepo
+  - Tamar Eilam
+  - Yehoshua Anikster
+  - "Alvaro L. Gait\xC3\xA1n"
+  publisher: Frontiers in Plant Science
+  date: '2014-10-31'
+  link: https://doi.org/gpf9sk
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1146/annurev-phyto-102313-050056
+  title: Speciation in Fungal and Oomycete Plant Pathogens
+  authors:
+  - Silvia Restrepo
+  - Javier F. Tabima
+  - Maria F. Mideros
+  - "Niklaus J. Gr\xFCnwald"
+  - Daniel R. Matute
+  publisher: Annual Review of Phytopathology
+  date: '2014-08-04'
+  link: https://doi.org/g97cn4
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1073/pnas.1401884111
+  title: "The Irish potato famine pathogen\n            <i>Phytophthora infestans</i>\n\
+    \            originated in central Mexico rather than the Andes"
+  authors:
+  - Erica M. Goss
+  - Javier F. Tabima
+  - David E. L. Cooke
+  - Silvia Restrepo
+  - William E. Fry
+  - Gregory A. Forbes
+  - Valerie J. Fieland
+  - Martha Cardenas
+  - "Niklaus J. Gr\xFCnwald"
+  publisher: Proceedings of the National Academy of Sciences
+  date: '2014-06-02'
+  link: https://doi.org/f56rsn
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3852/106.2.260
+  title: Entomopathogens of Amazonian stick insects and locusts are members of the<i>Beauveria</i>species
+    complex (<i>Cordyceps</i>sensu stricto)
+  authors:
+  - Tatiana Sanjuan
+  - Javier Tabima
+  - Silvia Restrepo
+  - "Thomas L\xE6ss\xF8e"
+  - Joseph W. Spatafora
+  - Ana Esperanza Franco-Molano
+  publisher: Mycologia
+  date: '2014-03-01'
+  link: https://doi.org/g97cn5
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3852/13-020
+  title: Entomopathogens of Amazonian stick insects and locusts are members of the<i>Beauveria</i>species
+    complex (<i>Cordyceps</i>sensu stricto)
+  authors:
+  - Tatiana Sanjuan
+  - Javier Tabima
+  - Silvia Restrepo
+  - "Thomas L\xE6ss\xF8e"
+  - Joseph W. Spatafora
+  - Ana Esperanza Franco-Molano
+  publisher: Mycologia
+  date: '2014-03-01'
+  link: https://doi.org/f5z95s
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/978-3-319-01568-2_20
+  title: Application of Genome Studies of Coffee Rust
+  authors:
+  - Marco Cristancho
+  - William Giraldo
+  - David Botero
+  - Javier Tabima
+  - Diana Ortiz
+  - Alejandro Peralta
+  - "\xC1lvaro Gait\xE1n"
+  - Silvia Restrepo
+  - "Diego Ria\xF1o"
+  publisher: Advances in Intelligent Systems and Computing
+  date: '2014-01-01'
+  link: https://doi.org/g97cn6
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1094/pdis-11-13-1130-re
+  title: Pathogenicity, Fungicide Resistance, and Genetic Variability of<i>Phytophthora
+    rubi</i>Isolates from Raspberry (<i>Rubus idaeus</i>) in the Western United States
+  authors:
+  - Jane E. Stewart
+  - Duncan Kroese
+  - Javier F. Tabima
+  - Meredith M. Larsen
+  - Valerie J. Fieland
+  - Caroline M. Press
+  - Inga A. Zasada
+  - "Niklaus J. Gr\xFCnwald"
+  publisher: Plant Disease
+  date: '2014-12-01'
+  link: https://doi.org/f6xp84
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/978-3-662-44056-8_8
+  title: Phytophthora ramorum
+  authors:
+  - Sydney E. Everhart
+  - Javier F. Tabima
+  - "Niklaus J. Gr\xFCnwald"
+  publisher: 'Genomics of Plant-Associated Fungi and Oomycetes: Dicot Pathogens'
+  date: '2014-01-01'
+  link: https://doi.org/g97cn7
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.7717/peerj.281
+  title: '<i>Poppr</i>: an R package for genetic analysis of populations with clonal,
+    partially clonal, and/or sexual reproduction'
+  authors:
+  - Zhian N. Kamvar
+  - Javier F. Tabima
+  - "Niklaus J. Gr\xFCnwald"
+  publisher: PeerJ
+  date: '2014-03-04'
+  link: https://doi.org/c57j
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1371/journal.pone.0079704
+  title: Genomic Survey of Pathogenicity Determinants and VNTR Markers in the Cassava
+    Bacterial Pathogen Xanthomonas axonopodis pv. Manihotis Strain CIO151
+  authors:
+  - Mario L. Arrieta-Ortiz
+  - "Luis M. Rodr\xEDguez-R"
+  - "\xC1lvaro L. P\xE9rez-Quintero"
+  - Lucie Poulin
+  - "Ana C. D\xEDaz"
+  - Nathalia Arias Rojas
+  - Cesar Trujillo
+  - Mariana Restrepo Benavides
+  - Rebecca Bart
+  - Jens Boch
+  - Tristan Boureau
+  - Armelle Darrasse
+  - Perrine David
+  - "Thomas Dug\xE9 de Bernonville"
+  - Paula Fontanilla
+  - Lionel Gagnevin
+  - "Fabien Gu\xE9rin"
+  - "Marie-Agn\xE8s Jacques"
+  - Emmanuelle Lauber
+  - Pierre Lefeuvre
+  - Cesar Medina
+  - Edgar Medina
+  - Nathaly Montenegro
+  - "Alejandra Mu\xF1oz Bodnar"
+  - "Laurent D. No\xEBl"
+  - "Juan F. Ortiz Qui\xF1ones"
+  - Daniela Osorio
+  - Carolina Pardo
+  - Prabhu B. Patil
+  - "St\xE9phane Poussier"
+  - Olivier Pruvost
+  - "Isabelle Rob\xE8ne-Soustrade"
+  - Robert P. Ryan
+  - Javier Tabima
+  - Oscar G. Urrego Morales
+  - "Christian Verni\xE8re"
+  - "S\xE9bastien Carrere"
+  - "Val\xE9rie Verdier"
+  - Boris Szurek
+  - Silvia Restrepo
+  - "Camilo L\xF3pez"
+  - Ralf Koebnik
+  - Adriana Bernal
+  publisher: PLoS ONE
+  date: '2013-11-22'
+  link: https://doi.org/zw9
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3109/13693786.2013.820001
+  title: 'Seborrheic dermatitis: predisposing factors and ITS2 secondary structure
+    for<i>Malassezia</i>phylogenic analysis'
+  authors:
+  - Yulien Amado
+  - "Anelvi Pati\xF1o-Uzc\xE1tegui"
+  - "Maria C. Cepero de Garc\xEDa"
+  - Javier Tabima
+  - Adriana Motta
+  - "Martha C\xE1rdenas"
+  - Adriana Bernal
+  - Silvia Restrepo
+  - Adriana Celis
+  publisher: Medical Mycology
+  date: '2013-11-01'
+  link: https://doi.org/g97cn8
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1111/j.1365-3059.2011.02530.x
+  title: "Defining species boundaries in the genus <i>Phytophthora</i>: the case of\
+    \ <i>Phytophthora andina</i> A response to \u2018<i>Phytophthora andina</i> sp.\
+    \ nov., a newly identified heterothallic pathogen of solanaceous hosts in the\
+    \ Andean highlands\u2019 (Oliva <i>et\_al.</i>, 2010)"
+  authors:
+  - "M. C\xE1rdenas"
+  - J. Tabima
+  - W. E. Fry
+  - "N. J. Gr\xFCnwald"
+  - A. Bernal
+  - S. Restrepo
+  publisher: Plant Pathology
+  date: '2011-12-04'
+  link: https://doi.org/dssjk9
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: issn:0120548X 19001649
+  title: ''
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://portal.issn.org/resource/ISSN/0120548X 19001649
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/jid.2011.178
+  title: Virulence Gene Expression in Malassezia spp from Individuals with Seborrheic
+    Dermatitis
+  authors:
+  - "Anelvi Pati\xF1o-Uzc\xE1tegui"
+  - Yulien Amado
+  - "Maria Cepero de Garc\xEDa"
+  - Diego Chaves
+  - Javier Tabima
+  - Adriana Motta
+  - "Martha C\xE1rdenas"
+  - Adriana Bernal
+  - Silvia Restrepo
+  - Adriana Celis
+  publisher: Journal of Investigative Dermatology
+  date: '2011-10-01'
+  link: https://doi.org/bnc45k
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.virusres.2011.04.011
+  title: Phylogeography and molecular epidemiology of Papaya ringspot virus
+  authors:
+  - X.A. Olarte Castillo
+  - G. Fermin
+  - J. Tabima
+  - Y. Rojas
+  - P.F. Tennant
+  - M. Fuchs
+  - R. Sierra
+  - A.J. Bernal
+  - S. Restrepo
+  publisher: Virus Research
+  date: '2011-08-01'
+  link: https://doi.org/btq3f7
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1094/pdis-11-10-0853
+  title: First Report of <i>Phytophthora infestans</i> Causing Late Blight on <i>Solanum
+    viarum</i> in Colombia
+  authors:
+  - "M. E. C\xE1rdenas"
+  - E. Medina
+  - J. Tabima
+  - A. Vargas
+  - C. Lopera
+  - A. Bernal
+  - S. Restrepo
+  publisher: Plant Disease
+  date: '2011-07-01'
+  link: https://doi.org/ddfwsk
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
