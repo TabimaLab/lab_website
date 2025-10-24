@@ -4,8 +4,6 @@ title: T-lab webpage Home
 
 {% include section.html full=true %}
 
-{% include banner.html image="images/banner.jpg" %}
-
 {% include section.html %}
 
 # Welcome to the Tabima lab webpage @ Clark University
