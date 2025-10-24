@@ -70,13 +70,6 @@ The T-lab is comprised by phenomenal undergraduates and graduate students of Cla
 
 We are always interested in potential Ph. D. students or Postdoctoral researchers that want to join the team!
 
-{%
-  include link.html
-  icon="fas fa-envelope"
-  text="Email"
-  tooltip="Email"
-  link="mailto:jtabima@clarku.edu"
-%}
 {:.center}
 
 {% include section.html %}
