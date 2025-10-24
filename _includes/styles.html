@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-<!-- site-wide css styles -->
-{%- for file in site.pages -%}
-  {%- if file.url contains "/css" -%}
-    {%- unless file.url contains ".map" -%}
-      {% assign path = file.path | replace: ".scss", ".css" %}
-      <link href="{{ path | relative_url }}" rel="stylesheet" />
-    {%- endunless -%}
-  {%- endif -%}
-{%- endfor -%}
-=======
 <!-- third party styles -->
 <!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
 <link 
@@ -37,4 +26,3 @@
 {% for style in styles %}
   <link href="{{ style.path | relative_url }}" rel="stylesheet" />
 {% endfor %}
->>>>>>> template/main
