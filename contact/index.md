@@ -10,16 +10,6 @@ nav:
 Our lab is part of the [Department of Biology](https://www.clarku.edu/departments/biology/), at [Clark University](https://www.clarku.edu/).
 We are located on the Second floor of the The Lasry Center for Bioscience
 
-
-{%
-  include link.html
-  type="email"
-  icon=""
-  text="Email us"
-  tooltip=""
-  link="jtabima@clarku.edu"
-  style="button"
-%}
 {:.center}
 
 {% include section.html %}
