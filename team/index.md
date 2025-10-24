@@ -5,8 +5,6 @@ nav:
   tooltip: About our team
 ---
 
-{% include banner.html image="images/lab_pic.jpg" %}
-
 # <i class="fas fa-users"></i>Team
 
 The T-lab is comprised by phenomenal undergraduates and graduate students of Clark University with different scopes of interest from mycology and genomics all the way to conservation and social justice in STEM
