@@ -7,8 +7,9 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Projects
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+# Tabima Lab Research Overview
+
+The Tabima Lab investigates the evolution, ecology, and genomics of non-Dikarya fungi, with a focus on the genus Basidiobolus and its interactions with amphibian hosts and environmental substrates. Our research integrates field ecology, experimental biology, microbial genomics, and bioinformatics to understand fungal adaptation, life cycle plasticity, and their broader implications for ecosystem and public health.
 
 {% include tags.html tags="publication, resource, website" %}
 
