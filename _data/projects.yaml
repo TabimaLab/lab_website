@@ -13,7 +13,8 @@
   group: featured
   image: images/Field.jpg
   link: 
-  description: Our group examines intrinsic and induced resistance to common antifungals, including the regulation of biosynthetic gene clusters and the molecular defense responses activated under therapeutic challenge. We integrate transcriptomics, metabolomics, and functional assays in collaboration with partners at UW–Madison.  repo: 
+  description: Our group examines intrinsic and induced resistance to common antifungals, including the regulation of biosynthetic gene clusters and the molecular defense responses activated under therapeutic challenge. We integrate transcriptomics, metabolomics, and functional assays in collaboration with partners at UW–Madison.  
+  repo: 
   tags:
     - resource
 
