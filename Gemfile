@@ -6,6 +6,8 @@ gem "webrick", "~> 1.7"
 gem "sass-embedded", ">= 1.75"
 gem "html-proofer", "~> 5.0"
 gem "csv"
+gem "base64"
+gem "ostruct"
 
 # plugins
 group :jekyll_plugins do
