@@ -1,47 +1,38 @@
-- title: Cool Dataset
-  subtitle: a subtitle
+- title: Life Cycle Plasticity and Genome Evolution in Basidiobolus
+  subtitle: Basidiobolus Genomics
   group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  image: images/background.jpg
+  link: https://pubmed.ncbi.nlm.nih.gov/32727924/
+  description: We study how Basidiobolus transitions among vertebrate guts, leaf litter, soil, insects, and aquatic sediments. Through whole-genome sequencing, comparative genomics, and secondary metabolite profiling, we test whether specialists and generalists differ in genome architecture and defense chemistry.
+  repo: 
   tags:
     - resource
 
-- title: Cool Package
-  subtitle: a subtitle
+- title: Microbiomes and Host–Fungal Interactions in Amphibians
+  subtitle: 
   group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  image: images/Field.jpg
+  link: 
+  description: Our group examines intrinsic and induced resistance to common antifungals, including the regulation of biosynthetic gene clusters and the molecular defense responses activated under therapeutic challenge. We integrate transcriptomics, metabolomics, and functional assays in collaboration with partners at UW–Madison.  repo: 
   tags:
     - resource
 
-- title: Cool Tutorial
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+- title: Antifungal Resistance Mechanisms in Emerging Zoopagomycota
+  subtitle: 
+  group: featured
+  image: images/Antifungal.jpg
+  link: 
+  description: We characterize skin and gut fungal communities across amphibian species to determine how host ecology, urbanization, and infection pressure shape microbial assembly. Field studies in New England and the Pacific Northwest are paired with culture-based enrichment experiments to uncover novel fungal diversity and host-microbe dynamics.
+  repo: 
   tags:
     - resource
-    - publication
 
-- title: Cool Web App
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+- title: Urbanization and Waterway Microbial Ecology
+  subtitle: 
+  group: featured
+  image: images/IMG_0976.jpeg
+  link: https://www.biorxiv.org/content/10.1101/2025.04.01.646624v2.full
+  description: We investigate how land use influences microbial diversity in sediments, water, and wildlife along the Tatnuck Brook watershed and other regional systems. High-throughput sequencing and ecological modeling allow us to identify drivers of fungal community change with relevance for environmental monitoring.
+  repo: 
   tags:
-    - software
-
-- title: Cool Web Server
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - software
+    - resource
