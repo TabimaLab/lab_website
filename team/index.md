@@ -13,7 +13,8 @@ The T-lab is comprised by phenomenal undergraduates and graduate students of Cla
 
 {% include list.html data="members" component="portrait" filter="role == 'pi'" %}
 {% include list.html data="members" component="portrait" filter="role == 'phd'" %}
-{% include list.html data="members" component="portrait" filter="role == 'phd'" %}
+{% include list.html data="members" component="portrait" filter="role == 'msc'" %}
+{% include list.html data="members" component="portrait" filter="role == 'undergrad'" %}
 
 
 ***
