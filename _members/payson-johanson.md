@@ -1,7 +1,7 @@
 ---
 name: Payson Johanson
 image: images/members/payson.jpg
-description: Undergrad Student
+description: Undergraduate Student
 role: undergrad
 group: current
 aliases:

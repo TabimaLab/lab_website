@@ -1,7 +1,7 @@
 ---
 name: Diana Stozhkova 
 image: images/members/diana.jpg
-description: Undergrad Student
+description: Undergraduate Student
 role: undergrad
 group: current
 aliases:

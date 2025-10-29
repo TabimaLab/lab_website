@@ -1,7 +1,7 @@
 ---
 name: Emmy Udry
 image: images/members/emmy.png
-description: Undergrad student
+description: Undergraduate student
 role: undergrad
 group: current
 aliases:
