@@ -1,8 +1,8 @@
 ### basic settings
 
 # site properties and page defaults
-title: Tabima Lab @ Clark University
-description: Webpage of the Tabima Lab of evolutionary genomics at Clark University
+title: TabimaLab
+description: An engaging 1-3 sentence description of your lab.
 logo: images/logo.svg
 header: images/background_1.jpg
 footer: images/background.jpg
@@ -10,11 +10,11 @@ baseurl: ""
 
 # site social media and other links
 links:
-  email: jtabima@clarku.edu
+  email: contact@TabimaLab.com
   google-scholar: Javier F. Tabima
   orcid: 0000-0002-3603-2691
   github: TabimaLab
-  twitter: Tabima
+  twitter: TabimaLab
 
 
 ### jekyll settings
