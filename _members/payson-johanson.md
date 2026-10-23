@@ -2,8 +2,8 @@
 name: Payson Johanson
 image: images/members/payson.jpg
 description: Undergraduate Student
-role: undergrad
-group: current
+role: alumni
+group: alum
 aliases:
   - P. Johanson
 links:

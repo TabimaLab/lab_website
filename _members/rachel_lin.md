@@ -2,8 +2,8 @@
 name: Xiaoai (Rachel) Lin  
 image: images/members/rlin.jpg
 description: Undergrad Student
-role: undergrad
-group: current
+role: alumni
+group: alum
 aliases:
   - Rachel Lin
 links:
