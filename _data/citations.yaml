@@ -1,5 +1,104 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1002/pro.70826
+  title: "Conserved\n                    <scp>IQ</scp>\n                    motifs,\
+    \ divergent apo\u2010calmodulin recognition in\n                    <scp>UBE3B</scp>\n\
+    \                    and\n                    <scp>UBE3C</scp>"
+  authors:
+  - Emily G. Schaffter
+  - Xiaohuan Lu
+  - Anna E. Tinklenberg
+  - Megan G. Hill
+  - Rafael H. Levin
+  - Javier F. Tabima
+  - Shuanghong Huo
+  - Donald E. Spratt
+  publisher: Protein Science
+  date: '2026-10-23'
+  link: https://doi.org/hcpn94
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1093/g3journal/jkag256
+  title: "Draft genome assembly of the green-bronze dung beetle,\n               \
+    \     <i>Onthophagus orpheus</i>"
+  authors:
+  - Alexander J Bradshaw
+  - Javier F Tabima
+  - Erin L McCullough
+  publisher: 'G3: Genes, Genomes, Genetics'
+  date: '2026-09-16'
+  link: https://doi.org/hcpn95
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1080/00275514.2026.2619989
+  title: "Unraveling the genomic and phylogenetic complexity of the under-studied\
+    \ microfungus\n                    <i>Basidiobolus</i>\n                    :\
+    \ Insights from 19 newly sequenced genomes"
+  authors:
+  - Jasper P. Carleton
+  - Alexander J. Bradshaw
+  - Liam P. Cleary
+  - Madison R. Hincher
+  - Kathryn Bushley
+  - Javier F. Tabima
+  publisher: Mycologia
+  date: '2026-03-13'
+  link: https://doi.org/hcpn96
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1093/g3journal/jkag022
+  title: "First high-quality genome assembly of\n                    <i>Umbelopsis\
+    \ nana</i>\n                    isolated from forest soil"
+  authors:
+  - Ryuka Iizuka
+  - Tomohiro Suzuki
+  - Nozomu Watanabe
+  - Javier F Tabima
+  - David Hibbett
+  - Yoko Katayama
+  - Makoto Yoshida
+  publisher: 'G3: Genes, Genomes, Genetics'
+  date: '2026-01-29'
+  link: https://doi.org/hcpn97
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/ece3.73430
+  title: "Characterization of a Core Fungal Community and Captivity\u2010Induced Gut\
+    \ \u201CMycobiome\u201D Change in Fowler's Toad (\n                    <scp>\n\
+    \                      <i>Anaxyrus fowleri</i>\n                    </scp>\n \
+    \                   )"
+  authors:
+  - Alexander J. Bradshaw
+  - Sinlan Poo
+  - Tracey E. Malter
+  - Rylie M. Strasbaugh
+  - Brianna Bodner
+  - Madison R. Hincher
+  - "Anne Devan\u2010Song"
+  - Javier F. Tabima
+  publisher: Ecology and Evolution
+  date: '2026-04-01'
+  link: https://doi.org/hcpn98
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.64898/2026.02.11.705363
+  title: "Draft genome assembly of the green-bronze dung beetle,\n               \
+    \   <i>Onthophagus orpheus</i>"
+  authors:
+  - Alexander J Bradshaw
+  - Javier F. Tabima
+  - Erin L McCullough
+  publisher: openRxiv
+  date: '2026-02-13'
+  link: https://doi.org/hcpn99
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1007/s11557-025-02090-3
   title: 'New genomic resources for insect-vectored plant pathogenic fungal species
     in the Ceratocystidaceae and Ophiostomataceae: Bretziella, Ceratocystis, and Ophiostoma'
@@ -35,7 +134,8 @@
   file: orcid.yaml
 - id: doi:10.1101/2025.07.08.659677
   title: "Characterization of a core fungal community and captivity-induced \u201C\
-    mycobiome\u201D change in Fowler\u2019s Toad (<i>Anaxyrus fowleri</i>)"
+    mycobiome\u201D change in Fowler\u2019s Toad (\n                  <i>Anaxyrus\
+    \ fowleri</i>\n                  )"
   authors:
   - Alexander J Bradshaw
   - Sinlan Poo
@@ -45,15 +145,16 @@
   - Madison R. Hincher
   - Anne Devan-Song
   - Javier F. Tabima
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2025-07-08'
   link: https://doi.org/g97cm3
   orcid: 0000-0002-3603-2691
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1101/2025.03.31.646025
-  title: Unraveling the Genomic and Phylogenetic Complexity of the understudied microfungus
-    <i>Basidiobolus:</i> Insights from 19 Newly Sequenced Genomes
+  title: "Unraveling the Genomic and Phylogenetic Complexity of the understudied microfungus\n\
+    \                  <i>Basidiobolus:</i>\n                  Insights from 19 Newly\
+    \ Sequenced Genomes"
   authors:
   - Jasper P. Carleton
   - Alexander J. Bradshaw
@@ -61,7 +162,7 @@
   - Madison R. Hincher
   - Kathryn Bushley
   - Javier F. Tabima
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2025-04-05'
   link: https://doi.org/g97cm4
   orcid: 0000-0002-3603-2691
@@ -80,7 +181,7 @@
   - Philip J. Bergmann
   - Nathan Ahlgren
   - Javier F. Tabima
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2025-04-02'
   link: https://doi.org/g97cm5
   orcid: 0000-0002-3603-2691
@@ -157,14 +258,14 @@
   file: orcid.yaml
 - id: doi:10.1101/2023.07.18.547692
   title: "Exploring Gene Expression Patterns and Evolutionary Responses in Host-Parasite\
-    \ inteactions: Insights from the<i>Schistocephalus solidus</i>\u2013 Threespine\
-    \ stickleback System"
+    \ inteactions: Insights from the\n                  <i>Schistocephalus solidus</i>\n\
+    \                  \u2013 Threespine stickleback System"
   authors:
   - Anika M. Wohlleben
   - Javier F. Tabima
   - "N\xE9va P. Meyer"
   - Natalie C. Steinel
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2023-07-19'
   link: https://doi.org/g97cnb
   orcid: 0000-0002-3603-2691
@@ -234,15 +335,16 @@
   - Jason E. Stajich
   - Javier F. Tabima
   - Donald M. Walker
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2023-08-25'
   link: https://doi.org/gsnctc
   orcid: 0000-0002-3603-2691
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1094/PDIS-08-22-1965-RE
-  title: Rapid New Diagnostic LAMP (Loop-Mediated Isothermal Amplification) Assays
-    to Distinguish Among the Four Lineages of <i>Phytophthora ramorum</i>
+  title: "Rapid New Diagnostic LAMP (Loop-Mediated Isothermal Amplification) Assays\
+    \ to Distinguish Among the Four Lineages of\n                    <i>Phytophthora\
+    \ ramorum</i>"
   authors:
   - "Kelsey L. S\xF8ndreli"
   - Javier F. Tabima
@@ -430,9 +532,9 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1534/g3.120.401516
-  title: Phylogenomic Analyses of Non-Dikarya Fungi Supports Horizontal Gene Transfer
-    Driving Diversification of Secondary Metabolism in the Amphibian Gastrointestinal
-    Symbiont, <i>Basidiobolus</i>
+  title: "Phylogenomic Analyses of Non-Dikarya Fungi Supports Horizontal Gene Transfer\
+    \ Driving Diversification of Secondary Metabolism in the Amphibian Gastrointestinal\
+    \ Symbiont,\n                    <i>Basidiobolus</i>"
   authors:
   - Javier F Tabima
   - Ian A Trautman
@@ -490,9 +592,9 @@
   file: sources.yaml
   image: https://www.science.org/cms/10.1126/science.aba5256/asset/1559f60b-f99a-4a15-b040-b1c611e6652c/assets/graphic/368_aba5256_fa.jpeg
 - id: doi:10.1101/2020.04.08.030916
-  title: Phylogenomic analyses of non-Dikarya fungi supports horizontal gene transfer
-    driving diversification of secondary metabolism in the amphibian gastrointestinal
-    symbiont, <i>Basidiobolus</i>
+  title: "Phylogenomic analyses of non-Dikarya fungi supports horizontal gene transfer\
+    \ driving diversification of secondary metabolism in the amphibian gastrointestinal\
+    \ symbiont,\n                  <i>Basidiobolus</i>"
   authors:
   - Javier Felipe Tabima
   - Ian A. Trautman
@@ -503,7 +605,7 @@
   - Igor V. Grigoriev
   - Jason E. Stajich
   - Joseph W. Spatafora
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2020-04-09'
   link: https://doi.org/gk3q7q
   orcid: 0000-0002-3603-2691
@@ -525,8 +627,8 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1080/07060661.2019.1626910
-  title: "From genomes to forest management \u2013 tackling invasive<i>Phytophthora</i>species\
-    \ in the era of genomics"
+  title: "From genomes to forest management \u2013 tackling invasive\n           \
+    \         <i>Phytophthora</i>\n                    species in the era of genomics"
   authors:
   - "S. Keri\xF6"
   - H. A. Daniels
@@ -585,9 +687,9 @@
   file: sources.yaml
   image: https://apsjournals.apsnet.org/cms/10.1094/MPMI-05-19-0131-R/asset/images/medium/mpmi-05-19-0131-r_f1.gif
 - id: doi:10.1101/860619
-  title: Genomic investigation of the strawberry pathogen <i>Phytophthora fragariae</i>
-    indicates pathogenicity is associated with transcriptional variation in three
-    key races
+  title: "Genomic investigation of the strawberry pathogen\n                  <i>Phytophthora\
+    \ fragariae</i>\n                  indicates pathogenicity is associated with\
+    \ transcriptional variation in three key races"
   authors:
   - Thomas M. Adams
   - Andrew D. Armitage
@@ -600,15 +702,15 @@
   - Jim M. Dunwell
   - Charlotte F. Nellist
   - Richard J. Harrison
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2019-11-30'
   link: https://doi.org/gkwqmm
   orcid: 0000-0002-3603-2691
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1094/MPMI-10-18-0279-TA
-  title: '<i>effectR</i>: An Expandable R Package to Predict Candidate RxLR and CRN
-    Effectors in Oomycetes Using Motif Searches'
+  title: "<i>effectR</i>\n                    : An Expandable R Package to Predict\
+    \ Candidate RxLR and CRN Effectors in Oomycetes Using Motif Searches"
   authors:
   - Javier F. Tabima
   - "Niklaus J. Gr\xFCnwald"
@@ -619,15 +721,16 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1101/633701
-  title: Genome-wide increased copy number is associated with emergence of super-fit
-    clones of the Irish potato famine pathogen <i>Phytophthora infestans</i>
+  title: "Genome-wide increased copy number is associated with emergence of super-fit\
+    \ clones of the Irish potato famine pathogen\n                  <i>Phytophthora\
+    \ infestans</i>"
   authors:
   - Brian J. Knaus
   - Javier F. Tabima
   - Shankar K. Shakya
   - Howard S. Judelson
   - "Niklaus J. Gr\xFCnwald"
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2019-05-16'
   link: https://doi.org/gkw253
   orcid: 0000-0002-3603-2691
@@ -686,11 +789,12 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1101/398404
-  title: '<i>effectR</i>: An expandable R package to predict candidate effectors'
+  title: "<i>effectR</i>\n                  : An expandable R package to predict candidate\
+    \ effectors"
   authors:
   - Javier F. Tabima
   - "Niklaus J. Gr\xFCnwald"
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2018-08-23'
   link: https://doi.org/gkxb67
   orcid: 0000-0002-3603-2691
@@ -711,8 +815,9 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1111/ppa.12812
-  title: Genetic diversity of <i>Phytophthora pluvialis</i>, a pathogen of conifers,
-    in New Zealand and the west coast of the United States of America
+  title: "Genetic diversity of\n                    <i>Phytophthora pluvialis</i>\n\
+    \                    , a pathogen of conifers, in New Zealand and the west coast\
+    \ of the United States of America"
   authors:
   - S. Brar
   - J. F. Tabima
@@ -733,8 +838,10 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.3767/persoonia.2018.41.03
-  title: <i>Phytophthora betacei</i>, a new species within <i> Phytophthora</i> clade
-    1c causing late blight on <i> Solanum</i> <i> betaceum</i> in Colombia
+  title: "<i>Phytophthora betacei</i>\n                    , a new species within\n\
+    \                    <i>Phytophthora</i>\n                    clade 1c causing\
+    \ late blight on\n                    <i>Solanum</i>\n                    <i>betaceum</i>\n\
+    \                    in Colombia"
   authors:
   - M.F. Mideros
   - D.A. Turissini
@@ -761,8 +868,9 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1101/115824
-  title: Whole genome sequences of the raspberry and strawberry pathogens<i>Phytophthora
-    rubi</i>and<i>P. fragariae</i>
+  title: "Whole genome sequences of the raspberry and strawberry pathogens\n     \
+    \             <i>Phytophthora rubi</i>\n                  and\n              \
+    \    <i>P. fragariae</i>"
   authors:
   - Javier F. Tabima
   - Brent A. Kronmiller
@@ -770,15 +878,16 @@
   - Brett M. Tyler
   - Inga A. Zasada
   - "Niklaus J. Gr\xFCnwald"
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2017-03-10'
   link: https://doi.org/gkvtcm
   orcid: 0000-0002-3603-2691
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1094/MPMI-04-17-0081-A
-  title: Whole Genome Sequences of the Raspberry and Strawberry Pathogens <i>Phytophthora
-    rubi</i> and <i>P. fragariae</i>
+  title: "Whole Genome Sequences of the Raspberry and Strawberry Pathogens\n     \
+    \               <i>Phytophthora rubi</i>\n                    and\n          \
+    \          <i>P. fragariae</i>"
   authors:
   - Javier F. Tabima
   - Brent A. Kronmiller
@@ -1037,8 +1146,8 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1073/pnas.1401884111
-  title: "The Irish potato famine pathogen\n            <i>Phytophthora infestans</i>\n\
-    \            originated in central Mexico rather than the Andes"
+  title: "The Irish potato famine pathogen\n                    <i>Phytophthora infestans</i>\n\
+    \                    originated in central Mexico rather than the Andes"
   authors:
   - Erica M. Goss
   - Javier F. Tabima
@@ -1056,15 +1165,15 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.3852/106.2.260
-  title: Entomopathogens of Amazonian stick insects and locusts are members of the<i>Beauveria</i>species
-    complex (<i>Cordyceps</i>sensu stricto)
+  title: Entomopathogens of Amazonian stick insects and locusts are members of the
+    Beauveria species complex (Cordyceps sensu stricto)
   authors:
-  - Tatiana Sanjuan
-  - Javier Tabima
-  - Silvia Restrepo
-  - "Thomas L\xE6ss\xF8e"
-  - Joseph W. Spatafora
-  - Ana Esperanza Franco-Molano
+  - T. Sanjuan
+  - J. Tabima
+  - S. Restrepo
+  - T. Laessoe
+  - J. W. Spatafora
+  - A. E. Franco-Molano
   publisher: Mycologia
   date: '2014-03-01'
   link: https://doi.org/g97cn5
@@ -1072,8 +1181,9 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.3852/13-020
-  title: Entomopathogens of Amazonian stick insects and locusts are members of the<i>Beauveria</i>species
-    complex (<i>Cordyceps</i>sensu stricto)
+  title: "Entomopathogens of Amazonian stick insects and locusts are members of the\n\
+    \                    <i>Beauveria</i>\n                    species complex (\n\
+    \                    <i>Cordyceps</i>\n                    sensu stricto)"
   authors:
   - Tatiana Sanjuan
   - Javier Tabima
@@ -1136,8 +1246,8 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.7717/peerj.281
-  title: '<i>Poppr</i>: an R package for genetic analysis of populations with clonal,
-    partially clonal, and/or sexual reproduction'
+  title: "<i>Poppr</i>\n                    : an R package for genetic analysis of\
+    \ populations with clonal, partially clonal, and/or sexual reproduction"
   authors:
   - Zhian N. Kamvar
   - Javier F. Tabima
@@ -1221,10 +1331,12 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1111/j.1365-3059.2011.02530.x
-  title: "Defining species boundaries in the genus <i>Phytophthora</i>: the case of\
-    \ <i>Phytophthora andina</i> A response to \u2018<i>Phytophthora andina</i> sp.\
-    \ nov., a newly identified heterothallic pathogen of solanaceous hosts in the\
-    \ Andean highlands\u2019 (Oliva <i>et\_al.</i>, 2010)"
+  title: "Defining species boundaries in the genus\n                    <i>Phytophthora</i>\n\
+    \                    : the case of\n                    <i>Phytophthora andina</i>\n\
+    \                    A response to \u2018\n                    <i>Phytophthora\
+    \ andina</i>\n                    sp. nov., a newly identified heterothallic pathogen\
+    \ of solanaceous hosts in the Andean highlands\u2019 (Oliva\n                \
+    \    <i>et\_al.</i>\n                    , 2010)"
   authors:
   - "M. C\xE1rdenas"
   - J. Tabima
