@@ -28,8 +28,16 @@ nav:
   <ul class="alumni">
     {%- for m in alumni %}
     <li class="alumni__item">
-      <a class="alumni__name" href="{{ m.url | relative_url }}">{{ m.name }}</a>
-      <span class="alumni__role">{{ m.description }}</span>
+      {%- if m.image %}
+      <a class="alumni__photo" href="{{ m.url | relative_url }}" tabindex="-1" aria-hidden="true">
+        <img src="{{ m.image | relative_url }}" alt="" loading="lazy" decoding="async" width="56" height="56"
+             style="object-position: {{ m.focus | default: '50% 25%' }}">
+      </a>
+      {%- endif %}
+      <span class="alumni__text">
+        <a class="alumni__name" href="{{ m.url | relative_url }}">{{ m.name }}</a>
+        <span class="alumni__role">{{ m.description }}</span>
+      </span>
     </li>
     {%- endfor %}
   </ul>
