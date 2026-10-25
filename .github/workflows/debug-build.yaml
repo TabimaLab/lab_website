@@ -21,6 +21,6 @@ jobs:
           code=$?
           echo "exit=$code origin=${{ steps.pages.outputs.origin }} base=${{ steps.pages.outputs.base_path }}"
           if [ $code -ne 0 ]; then
-            echo "::error title=jekyll::$(grep -v '^\s*$' build.log | grep -v 'vendor/bundle\|hostedtoolcache' | head -n 12 | cut -c1-300 | sed 's/%/%25/g' | tr '\n' '|' )"
+            echo "::error title=jekyll::$(grep -v '^\s*$' build.log | grep -i 'error\|exception\|liquid\|syntax\|undefined\|invalid\|could not\|not found\|\.rb:' | grep -v 'vendor/bundle\|hostedtoolcache' | head -n 8 | cut -c1-300 | sed 's/%/%25/g' | tr '\n' '|' )"
             exit 1
           fi
