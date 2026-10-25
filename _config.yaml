@@ -1,51 +1,58 @@
-### basic settings
+### Site settings
+# Most day-to-day edits do NOT happen here. See EDITING.md for where things live.
 
-# site properties and page defaults
 title: Tabima Laboratory @ Clark University
+short_title: Tabima Lab
 description: Evolutionary mycology, population genetics and ecology of understudied microfungi
-logo: images/logo.svg
-header: images/background_1.jpg
-footer: images/background.jpg
 baseurl: ""
+timezone: America/New_York
 
-# site social media and other links
+# Link previews (Slack, X, iMessage...) use this image
+share_image: images/share.jpg
+
+# Shown in the footer and on the contact page
+contact:
+  email: contact@TabimaLab.com
+  institution: Department of Biology, Clark University
+  building: Lasry Center for Bioscience
+  street: 15 Maywood Street
+  city: Worcester, MA 01610
+  directions: Second floor of the Lasry Center for Bioscience
+
+# Footer icons. Delete a line to remove a link.
 links:
   email: contact@TabimaLab.com
-  google-scholar: Javier F. Tabima
+  google-scholar: t1P5G4QAAAAJ
   orcid: 0000-0002-3603-2691
   github: TabimaLab
   twitter: TabimaLab
 
+# Where the "edit this site" link in the footer points
+repo: https://github.com/TabimaLab/lab_website
 
-### jekyll settings
 
-# front matter defaults
+### Jekyll settings (leave these alone unless you know why)
+
 defaults:
-  # all markdown files
   - scope:
       path: ""
     values:
       layout: default
-  # markdown files in /_members
   - scope:
       type: "members"
     values:
       layout: member
-  # markdown files in /_posts
   - scope:
       type: "posts"
     values:
       layout: post
 
 collections:
-  # generate page for each member
   members:
     output: true
-  # generate page for each post
   posts:
     output: true
 
-# jekyll plugins
 plugins:
   - jekyll-spaceship
   - jekyll-sitemap
@@ -53,23 +60,16 @@ plugins:
   - jekyll-feed
   - jekyll-last-modified-at
 
-# code block syntax highlighting
-highlighter: rouge
-
-# jekyll theme
-theme: null
-
-# sass settings
-sass:
-  sass_dir: _styles
-
-# force jekyll to include certain files/folders
-include:
-  - _styles
-  - _scripts
-
-# force jekyll to exclude certain files/folders
 exclude:
   - README.md
+  - EDITING.md
   - LICENSE.md
   - CITATION.cff
+  - Gemfile
+  - Gemfile.lock
+  - lab_website.Rproj
+  - cite.sh
+  - start.sh
+  - "start 2.sh"
+  - _cite
+  - .docker

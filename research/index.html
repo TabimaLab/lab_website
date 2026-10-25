@@ -1,0 +1,33 @@
+---
+title: Research
+layout: page
+lede: We combine evolutionary theory, genomics, computational biology and mycology to learn how fungal species and populations evolve, and we build tools to identify them.
+redirect_from:
+  - /projects/
+nav:
+  order: 1
+---
+{%- assign featured = site.data.projects | where: "group", "featured" -%}
+{%- assign more = site.data.projects | where_exp: "p", "p.group != 'featured'" -%}
+
+<div class="programs programs--page">
+  {%- for p in featured %}
+    {% include program.html p=p %}
+  {%- endfor %}
+</div>
+
+{%- if more.size > 0 %}
+<section class="more-programs">
+  <h2>More projects</h2>
+  <ul class="more-programs__list">
+    {%- for p in more %}
+    <li>
+      <h3>{% if p.link %}<a href="{{ p.link }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</h3>
+      <p>{{ p.description }}</p>
+    </li>
+    {%- endfor %}
+  </ul>
+</section>
+{%- endif %}
+
+<p class="page-end"><a class="text-link" href="{{ '/publications/' | relative_url }}">Read the papers: all {{ site.data.citations.size }} publications</a></p>

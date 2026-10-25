@@ -1,0 +1,15 @@
+{%- comment -%} One research program. Usage: {% include program.html p=project %} {%- endcomment -%}
+{%- assign p = include.p -%}
+<article class="program{% if p.shape == 'portrait' %} program--portrait{% endif %}">
+  <div class="program__media">
+    <img src="{{ p.image | relative_url }}" alt="" loading="lazy" decoding="async"
+         style="object-position: {{ p.focus | default: '50% 50%' }}">
+  </div>
+  <div class="program__text">
+    <h3 class="program__title">{{ p.title | markdownify | remove: "<p>" | remove: "</p>" | strip }}</h3>
+    <p class="program__desc">{{ p.description | markdownify | remove: "<p>" | remove: "</p>" | strip }}</p>
+    {%- if p.link %}
+    <p><a class="text-link" href="{{ p.link }}">{{ p.link_text | default: "Learn more" }}</a></p>
+    {%- endif %}
+  </div>
+</article>

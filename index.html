@@ -1,0 +1,89 @@
+---
+title: Home
+layout: default
+body_class: home
+---
+{%- assign hero = site.data.home.hero -%}
+{%- assign home = site.data.home -%}
+{%- assign current = site.members | where: "group", "current" -%}
+{%- assign featured = site.data.projects | where: "group", "featured" -%}
+{%- assign n_people = current.size | append: "" -%}
+{%- assign n_papers = site.data.citations.size | append: "" -%}
+
+<section class="hero" data-hyphae="circle">
+  <div class="hyphae" aria-hidden="true"></div>
+  <div class="wrap hero__inner">
+    <div class="hero__text">
+      <h1 class="hero__title" data-hyphae-avoid>{{ hero.headline }}</h1>
+      <p class="hero__lede" data-hyphae-avoid>{{ hero.lede | markdownify | remove: "<p>" | remove: "</p>" | strip }}</p>
+      <p class="hero__actions" data-hyphae-avoid>
+        <a class="btn" href="{{ hero.primary_button.link | relative_url }}">{{ hero.primary_button.text }}</a>
+        <a class="text-link" href="{{ hero.secondary_button.link | relative_url }}">{{ hero.secondary_button.text }}</a>
+      </p>
+    </div>
+    <figure class="eyepiece">
+      <div class="eyepiece__lens" data-hyphae-source data-hyphae-avoid="round">
+        <img src="{{ hero.image | relative_url }}" alt="{{ hero.image_alt | escape }}" fetchpriority="high" decoding="async">
+      </div>
+      <figcaption class="eyepiece__caption" data-hyphae-avoid>{{ hero.caption }}</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="statement">
+  <div class="wrap">
+    <div class="statement__text">
+      {{ home.intro.text | markdownify }}
+    </div>
+  </div>
+</section>
+
+<section class="programs" id="research">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 class="section-head__title">{{ home.programs.headline }}</h2>
+      <a class="text-link" href="{{ '/research/' | relative_url }}">All research</a>
+    </div>
+    {%- for p in featured %}
+      {% include program.html p=p %}
+    {%- endfor %}
+  </div>
+</section>
+
+<section class="people on-dark">
+  <img class="people__image" src="{{ home.people.image | relative_url }}" alt="{{ home.people.image_alt | escape }}" loading="lazy" decoding="async">
+  <div class="wrap people__inner">
+    <h2 class="people__title">{{ home.people.headline | replace: "{count}", n_people }}</h2>
+    <div class="people__text">
+      <p>{{ home.people.text }}</p>
+      <p><a class="text-link" href="{{ home.people.link | relative_url }}">{{ home.people.link_text }}</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="papers">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 class="section-head__title">{{ home.papers.headline }}</h2>
+      <a class="text-link" href="{{ '/publications/' | relative_url }}">All {{ n_papers }} publications</a>
+    </div>
+    <ol class="pubs">
+      {%- for c in site.data.citations limit: home.papers.count %}
+        {% include publication.html c=c date_format="%b %Y" %}
+      {%- endfor %}
+    </ol>
+  </div>
+</section>
+
+<section class="join on-blue">
+  <div class="wrap join__inner">
+    <h2 class="join__title">{{ home.join.headline }}</h2>
+    <div class="join__text">
+      <p>{{ home.join.text }}</p>
+      <p class="join__actions">
+        <a class="btn btn--light" href="mailto:{{ home.join.email }}?subject=Joining%20the%20Tabima%20Lab">{{ home.join.button_text }}</a>
+        <a class="text-link" href="{{ home.join.link | relative_url }}">{{ home.join.link_text }}</a>
+      </p>
+    </div>
+  </div>
+</section>
