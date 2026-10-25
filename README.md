@@ -1,6 +1,6 @@
 # Tabima Lab website
 
-Visit **[tabimalab.science](https://tabimalab.science)**.
+Visit **[tabimalab.science](http://tabimalab.science)**.
 
 Built with [Jekyll](https://jekyllrb.com) and hosted on GitHub Pages. Publications update weekly from ORCID.
 
