@@ -1,0 +1,181 @@
+# Settings for the lab editor at /admin/. Lab members rarely need to touch this file.
+# Logging in: choose "Sign in with GitHub" and use a GitHub token (steps are in EDITING.md).
+backend:
+  name: github
+  repo: TabimaLab/lab_website
+  branch: main
+
+media_folder: images
+public_folder: images
+site_url: https://tabimalab.science
+display_url: https://tabimalab.science
+locale: en
+
+collections:
+  - name: pages
+    label: Pages
+    files:
+      - name: home
+        label: Home page
+        file: _data/home.yaml
+        fields:
+          - label: Top of the page
+            name: hero
+            widget: object
+            fields:
+              - { label: Big headline, name: headline, widget: string }
+              - { label: Sentence under the headline, name: lede, widget: text, hint: "Use *stars* around species names for italics." }
+              - { label: Round picture, name: image, widget: image }
+              - { label: Round picture description (for screen readers), name: image_alt, widget: string }
+              - { label: Caption, name: caption, widget: string }
+              - label: Main button
+                name: primary_button
+                widget: object
+                fields:
+                  - { label: Text, name: text, widget: string }
+                  - { label: Link, name: link, widget: string }
+              - label: Second button
+                name: secondary_button
+                widget: object
+                fields:
+                  - { label: Text, name: text, widget: string }
+                  - { label: Link, name: link, widget: string }
+          - label: Introduction
+            name: intro
+            widget: object
+            fields:
+              - { label: Text, name: text, widget: markdown, hint: "Leave a blank line between paragraphs." }
+          - label: Research section
+            name: programs
+            widget: object
+            fields:
+              - { label: Heading, name: headline, widget: string }
+          - label: People section
+            name: people
+            widget: object
+            fields:
+              - { label: Heading, name: headline, widget: string, hint: "[count] becomes the number of current members." }
+              - { label: Text, name: text, widget: text }
+              - { label: Group photo, name: image, widget: image }
+              - { label: Photo description, name: image_alt, widget: string }
+              - { label: Link text, name: link_text, widget: string }
+              - { label: Link, name: link, widget: string }
+          - label: Papers section
+            name: papers
+            widget: object
+            fields:
+              - { label: Heading, name: headline, widget: string }
+              - { label: How many papers to show, name: count, widget: number, value_type: int, min: 1, max: 20 }
+          - label: Join section
+            name: join
+            widget: object
+            fields:
+              - { label: Heading, name: headline, widget: string }
+              - { label: Text, name: text, widget: text }
+              - { label: Button text, name: button_text, widget: string }
+              - { label: Email, name: email, widget: string }
+              - { label: Link text, name: link_text, widget: string }
+              - { label: Link, name: link, widget: string }
+
+      - name: projects
+        label: Research programs
+        file: _data/projects.yaml
+        fields:
+          - label: Programs
+            name: programs
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { label: Title, name: title, widget: string, hint: "Use *stars* around species names for italics." }
+              - { label: Show as, name: group, widget: select, required: false, options: [{ label: Big row with a photo, value: featured }], hint: "Leave empty to put it in the small list at the bottom." }
+              - { label: Photo, name: image, widget: image, required: false }
+              - { label: Which part of the photo to keep, name: focus, widget: string, required: false, hint: "Optional. Example: 50% 20% (left-right, top-bottom)." }
+              - { label: Photo shape, name: shape, widget: select, required: false, options: [{ label: Portrait (tall or low resolution), value: portrait }] }
+              - { label: Description, name: description, widget: text, hint: "Two or three plain sentences." }
+              - { label: Link to a paper or page, name: link, widget: string, required: false }
+              - { label: Link text, name: link_text, widget: string, required: false, hint: "Defaults to Learn more." }
+
+      - name: join
+        label: Join page
+        file: join/index.md
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Layout, name: layout, widget: hidden, default: page }
+          - { label: Sentence under the title, name: lede, widget: text }
+          - label: Menu
+            name: nav
+            widget: object
+            fields:
+              - { label: Order (left to right), name: order, widget: number, value_type: int }
+              - { label: Menu name, name: title, widget: string, required: false }
+          - { label: Body, name: body, widget: markdown }
+
+      - name: contact
+        label: Contact page
+        file: contact/index.md
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Layout, name: layout, widget: hidden, default: page }
+          - { label: Sentence under the title, name: lede, widget: text }
+          - label: Menu
+            name: nav
+            widget: object
+            fields:
+              - { label: Order (left to right), name: order, widget: number, value_type: int }
+          - { label: Body, name: body, widget: markdown }
+
+  - name: members
+    label: People
+    label_singular: Person
+    folder: _members
+    extension: md
+    format: frontmatter
+    create: true
+    slug: "{{slug}}"
+    media_folder: /images/members
+    public_folder: images/members
+    summary: "{{name}} ({{role}})"
+    fields:
+      - { label: Name, name: name, widget: string }
+      - { label: Photo, name: image, widget: image, hint: "Under 500 KB please. Portraits about 4 by 5." }
+      - { label: Title shown under the name, name: description, widget: string, hint: "Example: PhD Student" }
+      - label: Role
+        name: role
+        widget: select
+        options: [{ label: Principal investigator, value: pi }, { label: Postdoc, value: postdoc }, { label: PhD student, value: phd }, { label: MSc student, value: msc }, { label: Undergraduate, value: undergrad }, { label: Alumni, value: alumni }]
+      - label: Status
+        name: group
+        widget: select
+        options: [{ label: Current member, value: current }, { label: Alumni, value: alum }]
+        hint: "When someone leaves, set Role to Alumni and Status to Alumni."
+      - { label: Which part of the photo to keep, name: focus, widget: string, required: false, hint: "Optional, if a face is cropped badly. Example: 50% 15%." }
+      - { label: Other names used in papers, name: aliases, widget: list, required: false, field: { label: Name, name: alias, widget: string }, hint: "Used to link their papers." }
+      - label: Links
+        name: links
+        widget: object
+        required: false
+        fields:
+          - { label: Email, name: email, widget: string, required: false }
+          - { label: GitHub name, name: github, widget: string, required: false }
+          - { label: Google Scholar ID, name: google, widget: string, required: false }
+          - { label: ORCID, name: orcid, widget: string, required: false }
+          - { label: X / Twitter name, name: twitter, widget: string, required: false }
+      - { label: Short bio, name: body, widget: markdown }
+
+  - name: posts
+    label: Blog posts
+    label_singular: Blog post
+    folder: _posts
+    extension: md
+    format: frontmatter
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    media_folder: /images
+    public_folder: images
+    summary: "{{title}}"
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Author, name: author, widget: string, required: false }
+      - { label: Author's page name (file name in People, without .md), name: member, widget: string, required: false }
+      - { label: Tags, name: tags, widget: list, required: false, field: { label: Tag, name: tag, widget: string } }
+      - { label: Post, name: body, widget: markdown }
