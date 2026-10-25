@@ -1,0 +1,32 @@
+---
+title: Publications
+layout: page
+lede: Papers and preprints from the lab. This list updates itself from Javier Tabima's ORCID record every week.
+nav:
+  order: 2
+---
+<div class="pub-tools">
+  <label class="pub-tools__label" for="pub-filter">Filter by title, author, journal or year</label>
+  <input class="pub-tools__input" id="pub-filter" type="search" autocomplete="off" placeholder="Basidiobolus, Bradshaw, 2024...">
+  <p class="pub-tools__count" id="pub-count" role="status" aria-live="polite">{{ site.data.citations.size }} publications</p>
+</div>
+
+{%- assign last_year = "none" %}
+<div class="pub-years" id="pub-list">
+{%- for c in site.data.citations %}
+  {%- assign y = c.date | date: "%Y" -%}
+  {%- unless y and y != "" %}{% assign y = "Undated" %}{% endunless -%}
+  {%- if y != last_year %}
+    {%- unless forloop.first %}</ol></section>{% endunless %}
+<section class="pub-year" data-year="{{ y }}">
+  <h2 class="pub-year__title">{{ y }}</h2>
+  <ol class="pubs">
+    {%- assign last_year = y %}
+  {%- endif %}
+    {% include publication.html c=c date_format="%b" %}
+{%- endfor %}
+  </ol>
+</section>
+</div>
+
+<p class="pub-empty" id="pub-empty" hidden>No papers match. Try a shorter search.</p>

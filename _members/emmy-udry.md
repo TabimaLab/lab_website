@@ -1,6 +1,6 @@
 ---
 name: Emmy Udry
-image: images/members/emmy.png
+image: images/members/emmy.jpg
 description: Undergraduate student
 role: undergrad
 group: current

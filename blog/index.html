@@ -1,0 +1,16 @@
+---
+title: Blog
+layout: page
+lede: Notes from the lab.
+---
+<ul class="posts">
+  {%- for post in site.posts %}
+  <li class="posts__item">
+    <time class="posts__date" datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+    <div>
+      <h2 class="posts__title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+      <p class="posts__excerpt">{{ post.excerpt | strip_html | normalize_whitespace | truncatewords: 38 }}</p>
+    </div>
+  </li>
+  {%- endfor %}
+</ul>

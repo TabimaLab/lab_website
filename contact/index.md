@@ -1,22 +1,25 @@
 ---
 title: Contact
+layout: page
+lede: Questions about the lab, a collaboration, or joining us? Write to us, or stop by.
 nav:
   order: 5
-  tooltip: Email, address, and location
 ---
 
-# <i class="fas fa-envelope"></i>Contact
+## Email
 
-Our lab is part of the [Department of Biology](https://www.clarku.edu/departments/biology/), at [Clark University](https://www.clarku.edu/).
-We are located on the Second floor of the The Lasry Center for Bioscience
+<p><a class="btn" href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a></p>
 
-{:.center}
+## Visit
 
-{% include section.html %}
+{{ site.contact.directions }}.
 
-### <i class="fas fa-mail-bulk"></i>Mailing Address
+<address>
+{{ site.contact.building }}<br>
+{{ site.contact.street }}<br>
+{{ site.contact.city }}
+</address>
 
-The Lasry Center for Bioscience
-15 Maywood Street
-Worcester, MA 01610 
-{:.center}
+<p><a class="text-link" href="https://www.google.com/maps/search/?api=1&query={{ site.contact.building | append: ' ' | append: site.contact.street | append: ' ' | append: site.contact.city | uri_escape }}">Open in Google Maps</a></p>
+
+The lab is part of the [Department of Biology](https://www.clarku.edu/departments/biology/) at [Clark University](https://www.clarku.edu/).

@@ -1,0 +1,12 @@
+{%- comment -%} One team member card. Usage: {% include person.html m=member %} {%- endcomment -%}
+{%- assign m = include.m -%}
+<li class="person">
+  <a class="person__link" href="{{ m.url | relative_url }}">
+    <span class="person__photo">
+      <img src="{{ m.image | relative_url }}" alt="" loading="lazy" decoding="async"
+           style="object-position: {{ m.focus | default: '50% 25%' }}">
+    </span>
+    <span class="person__name">{{ m.name }}</span>
+    <span class="person__role">{{ m.description }}</span>
+  </a>
+</li>

@@ -1,0 +1,38 @@
+---
+title: Team
+layout: page
+lede: Undergraduates, graduate students and postdocs at Clark University, with interests that run from mycology and genomics to conservation and social justice in STEM.
+nav:
+  order: 3
+  also: members
+---
+{%- for r in site.data.roles %}
+  {%- assign group = site.members | where: "role", r.id %}
+  {%- if group.size > 0 %}
+<section class="roster">
+  <h2 class="roster__title">{{ r.heading }}</h2>
+  <ul class="people-grid">
+    {%- for m in group %}
+      {% include person.html m=m %}
+    {%- endfor %}
+  </ul>
+</section>
+  {%- endif %}
+{%- endfor %}
+
+{%- assign alumni = site.members | where: "role", "alumni" | sort: "name" %}
+{%- if alumni.size > 0 %}
+<section class="roster roster--alumni">
+  <h2 class="roster__title">Alumni</h2>
+  <ul class="alumni">
+    {%- for m in alumni %}
+    <li class="alumni__item">
+      <a class="alumni__name" href="{{ m.url | relative_url }}">{{ m.name }}</a>
+      <span class="alumni__role">{{ m.description }}</span>
+    </li>
+    {%- endfor %}
+  </ul>
+</section>
+{%- endif %}
+
+<p class="page-end">Want to join us? <a class="text-link" href="{{ '/join/' | relative_url }}">See how</a></p>

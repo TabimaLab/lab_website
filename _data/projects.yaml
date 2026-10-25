@@ -1,39 +1,57 @@
-- title: Life Cycle Plasticity and Genome Evolution in Basidiobolus
-  subtitle: Basidiobolus Genomics
-  group: featured
-  image: images/background.jpg
-  link: https://pubmed.ncbi.nlm.nih.gov/32727924/
-  description: We study how Basidiobolus transitions among vertebrate guts, leaf litter, soil, insects, and aquatic sediments. Through whole-genome sequencing, comparative genomics, and secondary metabolite profiling, we test whether specialists and generalists differ in genome architecture and defense chemistry.
-  repo: 
-  tags:
-    - resource
+# Research programs. Shown on the home page and on the Research page.
+#
+# To add a program, copy one block below and paste it at the end:
+#   title        the name of the program (use *stars* around species names to italicize)
+#   group        featured = big row with a photo. Leave out for the small list at the bottom
+#   image        path to a photo in /images (landscape or portrait both work)
+#   focus        optional. Which part of the photo to keep when cropped, e.g. "50% 20%"
+#   shape        optional. Use "portrait" for tall or low-resolution photos
+#   description  two or three plain sentences
+#   link         optional web address of a paper or project page
+#   link_text    optional. Defaults to "Learn more"
 
-- title: Microbiomes and Host–Fungal Interactions in Amphibians
-  subtitle: 
+- title: Life cycle plasticity and genome evolution in *Basidiobolus*
+  group: featured
+  image: images/microscopy-basidiobolus.jpg
+  focus: 50% 50%
+  description: >-
+    We study how *Basidiobolus* moves among vertebrate guts, leaf litter, soil,
+    insects and aquatic sediments. With whole-genome sequencing, comparative
+    genomics and secondary metabolite profiling, we test whether specialists
+    and generalists differ in genome architecture and in their chemical defenses.
+  link: https://pubmed.ncbi.nlm.nih.gov/32727924/
+  link_text: Read the paper
+
+- title: Microbiomes and host–fungal interactions in amphibians
   group: featured
   image: images/Field.jpg
-  link: 
-  description: Our group examines intrinsic and induced resistance to common antifungals, including the regulation of biosynthetic gene clusters and the molecular defense responses activated under therapeutic challenge. We integrate transcriptomics, metabolomics, and functional assays in collaboration with partners at UW–Madison.  
-  repo: 
-  tags:
-    - resource
+  focus: 35% 60%
+  description: >-
+    We sample skin and gut fungal communities across amphibian species to learn
+    how host ecology, urbanization and infection pressure shape microbial
+    assembly. Field studies in New England and the Pacific Northwest are paired
+    with culture-based experiments that uncover new fungal diversity.
 
-- title: Antifungal Resistance Mechanisms in Emerging Zoopagomycota
-  subtitle: 
+- title: Antifungal resistance in emerging Zoopagomycota
   group: featured
   image: images/Antifungal.jpg
-  link: 
-  description: We characterize skin and gut fungal communities across amphibian species to determine how host ecology, urbanization, and infection pressure shape microbial assembly. Field studies in New England and the Pacific Northwest are paired with culture-based enrichment experiments to uncover novel fungal diversity and host-microbe dynamics.
-  repo: 
-  tags:
-    - resource
+  focus: 50% 40%
+  shape: portrait
+  description: >-
+    We examine intrinsic and induced resistance to common antifungals,
+    including how biosynthetic gene clusters are regulated and which molecular
+    defenses switch on under drug challenge. We combine transcriptomics,
+    metabolomics and functional assays, in collaboration with partners at
+    UW–Madison.
 
-- title: Urbanization and Waterway Microbial Ecology
-  subtitle: 
+- title: Urbanization and waterway microbial ecology
   group: featured
-  image: images/IMG_0976.jpeg
+  image: images/resources.jpg
+  focus: 70% 40%
+  description: >-
+    We investigate how land use shapes microbial diversity in sediment, water
+    and wildlife along the Tatnuck Brook watershed and other regional systems.
+    High-throughput sequencing and ecological modeling help us identify what
+    drives fungal community change, with uses for environmental monitoring.
   link: https://www.biorxiv.org/content/10.1101/2025.04.01.646624v2.full
-  description: We investigate how land use influences microbial diversity in sediments, water, and wildlife along the Tatnuck Brook watershed and other regional systems. High-throughput sequencing and ecological modeling allow us to identify drivers of fungal community change with relevance for environmental monitoring.
-  repo: 
-  tags:
-    - resource
+  link_text: Read the preprint

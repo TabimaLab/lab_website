@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html lang="en" data-dark="false">
-  {% include head.html %}
-  <body>
-    {% include header.html %}
-    <main>
-      {% include content.html content=content %}
-    </main>
-    {% include footer.html %}
-  </body>
+<html lang="en">
+{% include head.html %}
+<body{% if page.body_class %} class="{{ page.body_class }}"{% endif %}>
+  <a class="skip-link" href="#main">Skip to content</a>
+  {% include header.html %}
+  <main id="main">
+    {{ content }}
+  </main>
+  {% include footer.html %}
+  <script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>
+  <script src="{{ '/assets/js/hyphae.js' | relative_url }}" defer></script>
+</body>
 </html>

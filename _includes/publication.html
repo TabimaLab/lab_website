@@ -1,0 +1,37 @@
+{%- comment -%}
+  One paper. Usage: {% include publication.html c=citation date_format="%b %Y" %}
+{%- endcomment -%}
+{%- assign c = include.c -%}
+{%- assign fmt = include.date_format | default: "%b %Y" -%}
+{%- assign title = c.title
+  | normalize_whitespace
+  | replace: "<scp>", ""
+  | replace: "</scp>", ""
+  | replace: "( ", "("
+  | replace: " )", ")"
+  | replace: "</i> :", "</i>:"
+  | replace: "</i> ,", "</i>,"
+  | replace: "</i> .", "</i>."
+  | replace: "</i> )", "</i>)"
+  | replace: "( <i>", "(<i>"
+  | strip -%}
+{%- assign year = c.date | date: "%Y" -%}
+{%- assign venue = c.publisher | replace: "&amp;", "&" -%}
+{%- capture haystack -%}
+  {{ title | strip_html }} {{ c.authors | join: " " }} {{ venue }} {{ year }}
+{%- endcapture -%}
+<li class="pub" data-search="{{ haystack | normalize_whitespace | downcase | escape }}">
+  <time class="pub__date" {% if c.date %}datetime="{{ c.date | date: '%Y-%m-%d' }}"{% endif %}>{% if c.date %}{{ c.date | date: fmt }}{% else %}Undated{% endif %}</time>
+  <div class="pub__body">
+    <p class="pub__title">
+      {%- if c.link %}<a href="{{ c.link }}">{{ title }}</a>{% else %}{{ title }}{% endif -%}
+    </p>
+    <p class="pub__authors">
+      {%- for a in c.authors -%}
+        {%- if a contains "Tabima" %}<strong>{{ a }}</strong>{% else %}{{ a }}{% endif -%}
+        {%- unless forloop.last %}, {% endunless -%}
+      {%- endfor -%}
+    </p>
+    <p class="pub__venue">{{ venue }}</p>
+  </div>
+</li>

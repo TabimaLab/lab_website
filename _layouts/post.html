@@ -1,24 +1,16 @@
 ---
 layout: default
 ---
-
-{% include section.html background=page.image %}
-
-<h1 class="center">{{ page.title }}</h1>
-
-{%
-  include post-info.html
-  author=page.author
-  member=page.member
-  published=page.date
-  updated=page.last_modified_at
-  tags=page.tags
-%}
-
-{% include section.html %}
-
-{{ content }}
-
-{% include section.html %}
-
-{% include post-nav.html post=page %}
+<article class="post wrap">
+  <header class="post__head">
+    <p class="post__back"><a href="{{ '/blog/' | relative_url }}">All posts</a></p>
+    <h1 class="post__title">{{ page.title }}</h1>
+    <p class="post__meta">
+      {%- if page.author %}{{ page.author }}, {% endif -%}
+      <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+    </p>
+  </header>
+  <div class="prose post__body">
+    {{ content }}
+  </div>
+</article>

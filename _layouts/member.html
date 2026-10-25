@@ -1,51 +1,37 @@
 ---
 layout: default
 ---
+{%- assign last_name = page.name | split: " " | last -%}
+<article class="member wrap">
+  <p class="member__back"><a href="{{ '/team/' | relative_url }}">All team members</a></p>
 
-{% capture floatcontent %}
+  <div class="member__grid">
+    <figure class="member__photo">
+      <img src="{{ page.image | relative_url }}" alt="{{ page.name | escape }}"
+           {% if page.focus %}style="object-position: {{ page.focus }}"{% endif %}>
+    </figure>
 
-{% include portrait.html lookup=page.slug %}
+    <div class="member__text">
+      <h1 class="member__name">{{ page.name }}</h1>
+      {%- if page.description %}
+      <p class="member__role">{{ page.description }}</p>
+      {%- endif %}
 
-<div>
-  {% for link in page.links %}
-    {% assign key = link[0] %}
-    {% assign value = link[1] %}
-    {% include button.html type=key link=value style="bare" %}<br>
-  {% endfor %}
-</div>
+      <div class="prose">
+        {{ content }}
+      </div>
 
-{% endcapture %}
-
-{% include float.html content=floatcontent %}
-
-{{ content }}
-
-{% assign aliases = page.aliases
-  | default: page.name
-  | default: page.title
-  | join: ","
-  | split: ","
-  | array_filter
-%}
-
-{% capture search -%}
-  research/?search={% for alias in aliases %}"{{ alias }}" {% endfor %}
-{%- endcapture %}
-
-<p class="center">
-  <a href="{{ search | relative_url | uri_escape }}">
-    Search for {{ page.name | default: page.title }}'s papers on the Research page
-  </a>
-</p>
-
-{% capture search -%}
-  blog/?search={{ page.name }}
-{%- endcapture %}
-
-<!--
-<p class="center">
-  <a href="{{ search | relative_url | uri_escape }}">
-    See {{ page.name | default: page.title }}'s posts on the Blog page
-  </a>
-</p>
--->
+      {%- assign k = page.links %}
+      <ul class="member__links">
+        {%- if k.email %}<li><a href="mailto:{{ k.email }}">Email</a></li>{% endif %}
+        {%- if k.google %}<li><a href="https://scholar.google.com/citations?user={{ k.google }}">Google Scholar</a></li>{% endif %}
+        {%- if k.orcid %}<li><a href="https://orcid.org/{{ k.orcid }}">ORCID</a></li>{% endif %}
+        {%- if k.github %}<li><a href="https://github.com/{{ k.github }}">GitHub</a></li>{% endif %}
+        {%- if k.twitter %}<li><a href="https://x.com/{{ k.twitter }}">X</a></li>{% endif %}
+        {%- if page.role != "job-ad" %}
+        <li><a href="{{ '/publications/' | relative_url }}?search={{ last_name | uri_escape }}">Papers with {{ last_name }}</a></li>
+        {%- endif %}
+      </ul>
+    </div>
+  </div>
+</article>

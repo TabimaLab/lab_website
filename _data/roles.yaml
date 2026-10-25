@@ -1,35 +1,14 @@
-pi:
-  icon: fas fa-microscope
-  text: Principal Investigator
+# The order and headings on the Team page.
+# A person's "role:" in their _members file must match an id here.
+# Roles with nobody in them are hidden automatically.
 
-postdoc:
-  icon: fas fa-glasses
-  text: Postdoctoral Researcher
-
-phd:
-  icon: fas fa-graduation-cap
-  text: PhD Student
-
-msc:
-  icon: fas fa-user-graduate
-  text: Master's student
-
-undergrad:
-  icon: fas fa-school
-  text: Undergrad student
-  
-alumni:
-  icon: fas fa-code
-  text: Former lab member
-
-programmer:
-  icon: fas fa-code
-  text: Programmer
-
-mascot:
-  icon: fas fa-dog
-  text: Mascot
-
-job-ad:
-  icon: fas fa-plus-square
-  text: Job Opportunities!
+- id: pi
+  heading: Principal investigator
+- id: postdoc
+  heading: Postdoctoral researchers
+- id: phd
+  heading: PhD students
+- id: msc
+  heading: Master's students
+- id: undergrad
+  heading: Undergraduate students

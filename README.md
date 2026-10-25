@@ -1,10 +1,31 @@
+# Tabima Lab website
 
-  ![on-push](../../actions/workflows/on-push.yaml/badge.svg)
-  ![on-pull-request](../../actions/workflows/on-pull-request.yaml/badge.svg)
-  ![on-schedule](../../actions/workflows/on-schedule.yaml/badge.svg)
+Visit **[tabimalab.science](https://tabimalab.science)**.
 
-  # TabimaLab's Website
+Built with [Jekyll](https://jekyllrb.com) and hosted on GitHub Pages. Publications update weekly from ORCID.
 
-  Visit **[tabimalab.science](http://tabimalab.science)** 🚀
+**To edit anything on the site, read [EDITING.md](EDITING.md).** It is written for lab members who do not code.
 
-  _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
+## Run it on your own computer (optional)
+
+```
+bundle install
+bundle exec jekyll serve --livereload
+```
+
+Then open http://localhost:4000.
+
+## Layout
+
+```
+_data/home.yaml        words on the home page
+_data/projects.yaml    research programs
+_data/citations.yaml   publications (written by an automatic job, do not edit)
+_members/              one file per person
+_posts/                blog posts
+_layouts, _includes/   page templates
+assets/css/site.css    colors, fonts, spacing
+assets/js/             the menu, publication filter, and the growing hyphae
+assets/fonts/          Bricolage Grotesque and Newsreader (SIL Open Font License)
+images/                photos
+```

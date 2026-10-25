@@ -1,8 +1,33 @@
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  {%- assign page_title = page.name | default: page.title -%}
+  {%- capture full_title -%}
+    {%- if page.url == "/" -%}{{ site.title }}{%- else -%}{{ page_title | strip_html | escape }} | {{ site.short_title }}{%- endif -%}
+  {%- endcapture -%}
+  {%- assign blurb = page.lede | default: page.description | default: site.description -%}
+  {%- assign blurb = blurb | strip_html | normalize_whitespace | escape -%}
+  {%- assign share = page.image | default: site.share_image -%}
+
+  <title>{{ full_title }}</title>
+  <meta name="description" content="{{ blurb }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ site.title | escape }}">
+  <meta property="og:title" content="{{ full_title }}">
+  <meta property="og:description" content="{{ blurb }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:image" content="{{ share | absolute_url }}">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
+
+  <link rel="preload" href="{{ '/assets/fonts/bricolage-grotesque-latin-wdth-normal.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ '/assets/fonts/newsreader-latin-opsz-normal.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+
   {% include analytics.html %}
   {% include verification.html %}
-  {% include meta.html %}
-  {% include fonts.html %}
-  {% include styles.html %}
-  {% include scripts.html %}
 </head>

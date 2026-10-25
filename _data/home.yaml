@@ -1,0 +1,64 @@
+# Everything written on the home page lives in this file.
+# Edit the words after each colon, save, commit. That's it.
+# Research programs come from projects.yaml, papers come from citations.yaml
+# (updated automatically from ORCID), and people come from the _members folder.
+
+hero:
+  headline: The microscopic fungi nobody has studied yet.
+  lede: >-
+    The Tabima Lab at Clark University sequences, compares and names them.
+    We start with *Basidiobolus*, a fungus that lives in frog guts, leaf litter,
+    soil and pond sediment.
+  # The round picture in the hero. Drop a new photo in /images and change the name.
+  image: images/IMG_1300.jpeg
+  image_alt: Fungal spores stained blue with cotton blue dye, seen through a microscope
+  caption: Spores stained with cotton blue, the classic mycology stain.
+  primary_button:
+    text: See our research
+    link: /research/
+  secondary_button:
+    text: Join the lab
+    link: /join/
+
+intro:
+  # Markdown is fine here: *italics* for species names.
+  text: |
+    Fungi are widely known as molds and mushrooms, but most of the fungal world
+    is microscopic, and most of it has never been described. Our group studies
+    the diversity, genomics, evolution and ecology of these small fungi and the
+    hosts and ecosystems they live in.
+
+    We use the genus *Basidiobolus* as our model. It lets us ask how fungi and
+    hosts evolve together, what secondary metabolism does for a fungus, how
+    fungal populations change over time, and how fungi and bacteria share the
+    gut.
+
+programs:
+  headline: What we study
+
+people:
+  # {count} is replaced with the number of current members automatically.
+  headline: "{count} people are in the lab right now."
+  text: >-
+    Undergraduates, graduate students and postdocs at Clark University, with
+    interests that run from mycology and genomics to conservation and social
+    justice in STEM.
+  image: images/lab_pic.jpg
+  image_alt: Members of the Tabima Lab standing together in the lab
+  link_text: Meet the team
+  link: /team/
+
+papers:
+  headline: Recent papers
+  count: 5
+
+join:
+  headline: Come study fungi with us.
+  text: >-
+    We are always looking for PhD students interested in genomics, population
+    genetics, and the diversity and molecular systematics of microbial fungi.
+    The position includes tuition remission and a five-year stipend.
+  button_text: Email Dr. Tabima
+  email: jtabima@clarku.edu
+  link_text: How the lab works
+  link: /join/
