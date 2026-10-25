@@ -1,14 +1,15 @@
 ---
 title: Research
 layout: page
+edit: _data/projects.yaml
 lede: We combine evolutionary theory, genomics, computational biology and mycology to learn how fungal species and populations evolve, and we build tools to identify them.
 redirect_from:
   - /projects/
 nav:
   order: 1
 ---
-{%- assign featured = site.data.projects | where: "group", "featured" -%}
-{%- assign more = site.data.projects | where_exp: "p", "p.group != 'featured'" -%}
+{%- assign featured = site.data.projects.programs | where: "group", "featured" -%}
+{%- assign more = site.data.projects.programs | where_exp: "p", "p.group != 'featured'" -%}
 
 <div class="programs programs--page">
   {%- for p in featured %}

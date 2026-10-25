@@ -8,13 +8,28 @@ You do not need to code. Every change below is "edit a text file on GitHub, save
 
 ---
 
+## The easy way: the lab editor (with a login)
+
+Go to **tabimalab.science/admin/** (or the "Lab editor (log in)" link in the footer of any page). It shows forms instead of files: fill in the boxes, add photos by clicking, press **Save**. It covers the Home page, Research programs, the Join and Contact pages, People and Blog posts.
+
+**Logging in (once per person):**
+1. You must be a collaborator with write access on the GitHub repository (Javier adds people under Settings, Collaborators).
+2. On GitHub, go to Settings, Developer settings, Personal access tokens, Fine-grained tokens, **Generate new token**. Choose the repository `TabimaLab/lab_website` only, and under Permissions set **Contents: Read and write**.
+3. At /admin/ choose **Sign in with GitHub token** and paste it. The browser remembers it.
+
+Every save is a normal GitHub commit under your name, so **History** on GitHub still lets you undo anything. Saving in the editor removes the explanatory comments at the top of `home.yaml` and `projects.yaml`; the instructions live in this guide.
+
+**Edit this page:** the footer of every page has an **Edit this page** link that opens that page's file on GitHub, where you log in with your usual GitHub account.
+
+---
+
 ## What lives where
 
 | I want to change... | Edit this | Notes |
 |---|---|---|
 | The words on the home page | `_data/home.yaml` | Headline, intro, the "people" and "join" blocks. Use `*stars*` for italics. |
 | The round picture on the home page | `_data/home.yaml` (`hero.image`) | Upload the photo to `images/` first, then change the file name. |
-| Research programs (home and Research page) | `_data/projects.yaml` | Copy a block to add one. The instructions are at the top of the file. |
+| Research programs (home and Research page) | `_data/projects.yaml` | Copy a block under `programs:` to add one. The instructions are at the top of the file. |
 | A person (add, edit, move to alumni) | `_members/first-last.md` | See "Adding a person" below. |
 | Publications | Nothing to do | They update every week from Javier's ORCID. Run the **update-citations** action to refresh right now. |
 | A blog post | `_posts/YYYY-MM-DD-title.md` | Copy an existing post and change it. |

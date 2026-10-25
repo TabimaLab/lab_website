@@ -23,7 +23,12 @@
       <ul class="site-footer__list" aria-label="More on this site">
         <li><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
         <li><a href="{{ '/feed.xml' | relative_url }}">RSS feed</a></li>
-        {%- if site.repo %}<li><a href="{{ site.repo }}">Edit this site on GitHub</a></li>{% endif %}
+        {%- if site.repo %}
+        {%- assign src = page.edit | default: page.path -%}
+        {%- if src contains "." %}{% assign edit_url = site.repo | append: "/edit/main/" | append: src %}{% else %}{% assign edit_url = site.repo | append: "/tree/main/" | append: src %}{% endif %}
+        <li><a href="{{ edit_url }}">Edit this page</a></li>
+        <li><a href="{{ '/admin/' | relative_url }}">Lab editor (log in)</a></li>
+        {%- endif %}
       </ul>
     </div>
 

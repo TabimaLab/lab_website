@@ -2,11 +2,12 @@
 title: Home
 layout: default
 body_class: home
+edit: _data/home.yaml
 ---
 {%- assign hero = site.data.home.hero -%}
 {%- assign home = site.data.home -%}
 {%- assign current = site.members | where: "group", "current" -%}
-{%- assign featured = site.data.projects | where: "group", "featured" -%}
+{%- assign featured = site.data.projects.programs | where: "group", "featured" -%}
 {%- assign n_people = current.size | append: "" -%}
 {%- assign n_papers = site.data.citations.size | append: "" -%}
 
