@@ -37,8 +37,8 @@ programs:
   headline: What we study
 
 people:
-  # {count} is replaced with the number of current members automatically.
-  headline: "{count} people are in the lab right now."
+  # [count] is replaced with the number of current members automatically.
+  headline: "[count] people are in the lab right now."
   text: >-
     Undergraduates, graduate students and postdocs at Clark University, with
     interests that run from mycology and genomics to conservation and social
