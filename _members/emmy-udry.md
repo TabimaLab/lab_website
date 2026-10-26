@@ -1,12 +1,13 @@
 ---
 name: Emmy Udry
 image: images/members/emmy.jpg
-description: Undergraduate student
-role: undergrad
+description: M. Sc. student
+role: msc
 group: current
+focus: ''
 aliases:
   - E. Udry
-links:
+links: null
 ---
 
-Emmy is an undergrad in the T-Lab and is majoring in biology. She is interested in fungal interactions and spends a lot of her time culturing. Outside of the lab, she runs varsity cross country and is a member of CU Rapid Response.
+Emmy is an M. Sc. in the T-Lab and a B. Sc. in Biology. She is interested in fungal interactions and spends a lot of her time culturing. Outside of the lab, she runs varsity cross country and is a member of CU Rapid Response.
