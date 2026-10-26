@@ -96,6 +96,23 @@ collections:
               - { label: Link to a paper or page, name: link, widget: string, required: false }
               - { label: Link text, name: link_text, widget: string, required: false, hint: "Defaults to Learn more." }
 
+      - name: photos
+        label: Photo albums
+        file: _data/photos.yaml
+        fields:
+          - label: Albums
+            name: albums
+            widget: list
+            summary: "{{fields.title}}"
+            hint: "Each album is a shared album from the lab photo library. Albums without a link are not shown."
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Short description, name: description, widget: string, required: false }
+              - { label: Album link, name: link, widget: string, hint: "From Immich: open the album, Share, Create link, turn on Allow public user to download, then paste the link here." }
+              - { label: Cover photo, name: image, widget: image, required: false, hint: "Shrink it first (under 500 KB)." }
+              - { label: Which part of the cover to keep, name: focus, widget: string, required: false, hint: "Optional. Example: 50% 20%." }
+              - { label: Link text, name: link_text, widget: string, required: false, hint: "Defaults to Open album." }
+
       - name: join
         label: Join page
         file: join/index.md
