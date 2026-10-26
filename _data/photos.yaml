@@ -1,0 +1,5 @@
+# Photo albums shown on the Photos page.
+# Each album is a shared album in the lab photo library (photos.tabimalab.science).
+# In Immich: open the album, click Share, Create link, and turn on "Allow public user to download".
+# Paste that link below. Albums without a link are not shown.
+albums: []

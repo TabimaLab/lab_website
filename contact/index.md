@@ -3,7 +3,7 @@ title: Contact
 layout: page
 lede: Questions about the lab, a collaboration, or joining us? Write to us, or stop by.
 nav:
-  order: 5
+  order: 6
 ---
 
 ## Email
