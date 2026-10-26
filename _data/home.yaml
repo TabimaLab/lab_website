@@ -11,6 +11,9 @@ hero:
     soil and pond sediment.
   # The round picture in the hero. Drop a new photo in /images and change the name.
   image: images/IMG_1300.jpeg
+  # Optional: a short looping video in the round window. Compress it first (see EDITING.md),
+  # upload it to /images, and write its path here. The photo above is shown until it loads.
+  # video: images/hero.mp4
   image_alt: Fungal spores stained blue with cotton blue dye, seen through a microscope
   caption: Spores stained with cotton blue, the classic mycology stain.
   primary_button:

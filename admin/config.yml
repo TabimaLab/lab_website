@@ -26,6 +26,7 @@ collections:
               - { label: Big headline, name: headline, widget: string }
               - { label: Sentence under the headline, name: lede, widget: text, hint: "Use *stars* around species names for italics." }
               - { label: Round picture, name: image, widget: image }
+              - { label: Round video (optional, short and compressed), name: video, widget: file, required: false, hint: "MP4 under 6 MB. See the video steps in the editing guide." }
               - { label: Round picture description (for screen readers), name: image_alt, widget: string }
               - { label: Caption, name: caption, widget: string }
               - label: Main button
