@@ -1,0 +1,33 @@
+---
+title: Photos
+layout: page
+edit: _data/photos.yaml
+lede: Pictures of the lab, the fungi and the places we work. Open an album to browse it, and download any photo in full resolution.
+nav:
+  order: 5
+---
+{%- assign albums = site.data.photos.albums | where_exp: "a", "a.link" -%}
+{%- if albums.size > 0 %}
+<ul class="albums">
+  {%- for a in albums %}
+  <li class="album">
+    <a class="album__link" href="{{ a.link }}">
+      <span class="album__cover{% unless a.image %} album__cover--blank{% endunless %}">
+        {%- if a.image %}
+        <img src="{{ a.image | relative_url }}" alt="" loading="lazy" decoding="async"
+             style="object-position: {{ a.focus | default: '50% 50%' }}">
+        {%- endif %}
+      </span>
+      <span class="album__title">{{ a.title }}</span>
+      {%- if a.description %}
+      <span class="album__desc">{{ a.description }}</span>
+      {%- endif %}
+      <span class="album__open">{{ a.link_text | default: "Open album" }} &rarr;</span>
+    </a>
+  </li>
+  {%- endfor %}
+</ul>
+<p class="page-end">Please credit the Tabima Lab when you use our photos. Questions? <a class="text-link" href="mailto:{{ site.contact.email }}">Write to us</a>.</p>
+{%- else %}
+<p class="page-end">Our albums are on their way. Check back soon.</p>
+{%- endif %}

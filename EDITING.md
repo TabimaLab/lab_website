@@ -30,6 +30,7 @@ Every save is a normal GitHub commit under your name, so **History** on GitHub s
 | The words on the home page | `_data/home.yaml` | Headline, intro, the "people" and "join" blocks. Use `*stars*` for italics. |
 | The round picture on the home page | `_data/home.yaml` (`hero.image`) | Upload the photo to `images/` first, then change the file name. |
 | Research programs (home and Research page) | `_data/projects.yaml` | Copy a block under `programs:` to add one. The instructions are at the top of the file. |
+| Photo albums (the Photos page) | `_data/photos.yaml` | One entry per shared album: title, link, cover photo. Easiest in the lab editor, under Photo albums. |
 | A person (add, edit, move to alumni) | `_members/first-last.md` | See "Adding a person" below. |
 | Publications | Nothing to do | They update every week from Javier's ORCID. Run the **update-citations** action to refresh right now. |
 | A blog post | `_posts/YYYY-MM-DD-title.md` | Copy an existing post and change it. |
@@ -95,7 +96,7 @@ nav:
 Your text here.
 ```
 
-`nav: order:` puts it in the top menu. The numbers decide the left-to-right order (Research is 1, Publications 2, Team 3, Join 4, Contact 5). Leave `nav:` out to keep the page out of the menu.
+`nav: order:` puts it in the top menu. The numbers decide the left-to-right order (Research is 1, Publications 2, Team 3, Join 4, Photos 5, Contact 6). Leave `nav:` out to keep the page out of the menu.
 
 ---
 
