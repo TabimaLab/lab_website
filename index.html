@@ -24,7 +24,12 @@ edit: _data/home.yaml
     </div>
     <figure class="eyepiece">
       <div class="eyepiece__lens" data-hyphae-source data-hyphae-avoid="round">
+        {%- if hero.video %}
+        <video class="eyepiece__video" src="{{ hero.video | relative_url }}" poster="{{ hero.image | relative_url }}"
+               autoplay muted loop playsinline preload="metadata" aria-label="{{ hero.image_alt | escape }}"></video>
+        {%- else %}
         <img src="{{ hero.image | relative_url }}" alt="{{ hero.image_alt | escape }}" fetchpriority="high" decoding="async">
+        {%- endif %}
       </div>
       <figcaption class="eyepiece__caption" data-hyphae-avoid>{{ hero.caption }}</figcaption>
     </figure>

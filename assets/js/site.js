@@ -42,6 +42,23 @@
     }
   }
 
+  /* Hero video: show the still picture for people who prefer reduced motion, and pause off-screen */
+  var video = document.querySelector('.eyepiece__video');
+  if (video) {
+    var calm = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (calm) {
+      video.removeAttribute('autoplay');
+      video.pause();
+    } else if ('IntersectionObserver' in window) {
+      new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) { var p = video.play(); if (p && p.catch) p.catch(function () {}); }
+          else video.pause();
+        });
+      }).observe(video);
+    }
+  }
+
   /* Publication filter: every word typed must appear in the title, authors, journal or year */
   var input = document.getElementById('pub-filter');
   if (input) {

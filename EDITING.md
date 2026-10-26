@@ -99,6 +99,20 @@ Your text here.
 
 ---
 
+## A video in the round window on the home page
+
+Videos straight from a camera or phone are huge (hundreds of MB to GB) and will not load on a website. Shrink it first. On any computer with [ffmpeg](https://ffmpeg.org) installed:
+
+```
+ffmpeg -i original.mov -t 12 -vf "crop='min(iw,ih)':'min(iw,ih)',scale=720:720,fps=24" -c:v libx264 -crf 28 -preset slow -pix_fmt yuv420p -an -movflags +faststart hero.mp4
+```
+
+That keeps the first 12 seconds, crops to a square, removes sound, and usually lands at 2 to 6 MB. Change `-t 12` to pick the length and `-ss 00:00:30` (before `-i`) to start later. If it is still over 6 MB, raise `-crf 28` to 30 to 32.
+
+Then upload `hero.mp4` to the `images` folder on GitHub and, in `_data/home.yaml`, remove the `#` in front of `video:` and fix the name (or use the **Round video** box in the lab editor). The round photo stays as the placeholder while the video loads, and for people who have "reduce motion" turned on.
+
+---
+
 ## The growing fungus on the home page
 
 It is drawn by `assets/js/hyphae.js`. It grows from the round photo, bends toward the cursor, and grows around the text. People who have "reduce motion" turned on, and slow devices, see the finished drawing instead of the animation. If you want it calmer or busier, the settings are the numbers at the top of that file.
