@@ -1,36 +1,11 @@
-/* Site behavior: header colors, mobile menu, publication filter. No libraries. */
+/* Site behavior: mobile menu, hero video, publication filter. No libraries. */
 (function () {
   'use strict';
 
   var header = document.getElementById('site-header');
 
-  /* Header text turns white while it sits over a dark or blue section */
+  /* Mobile menu */
   if (header) {
-    var dark = Array.prototype.slice.call(document.querySelectorAll('.on-dark, .on-blue'));
-    var ticking = false;
-
-    var update = function () {
-      var y = header.offsetHeight / 2;
-      var over = false;
-      for (var i = 0; i < dark.length; i++) {
-        var r = dark[i].getBoundingClientRect();
-        if (r.top <= y && r.bottom > y) { over = true; break; }
-      }
-      if (over) header.setAttribute('data-over', 'dark');
-      else header.removeAttribute('data-over');
-    };
-
-    var onScroll = function () {
-      if (ticking) return;
-      ticking = true;
-      requestAnimationFrame(function () { ticking = false; update(); });
-    };
-
-    window.addEventListener('scroll', onScroll, { passive: true });
-    window.addEventListener('resize', onScroll);
-    update();
-
-    /* Mobile menu */
     var toggle = header.querySelector('.site-header__toggle');
     if (toggle) {
       toggle.addEventListener('click', function () {
