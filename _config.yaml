@@ -12,7 +12,7 @@ share_image: images/share.jpg
 
 # Shown in the footer and on the contact page
 contact:
-  email: contact@TabimaLab.com
+  email: contact@tabimalab.science
   institution: Department of Biology, Clark University
   building: Lasry Center for Bioscience
   street: 15 Maywood Street
@@ -21,7 +21,7 @@ contact:
 
 # Footer icons. Delete a line to remove a link.
 links:
-  email: contact@TabimaLab.com
+  email: contact@tabimalab.science
   google-scholar: t1P5G4QAAAAJ
   orcid: 0000-0002-3603-2691
   github: TabimaLab
