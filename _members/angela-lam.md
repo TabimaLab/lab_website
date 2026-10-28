@@ -1,7 +1,7 @@
 ---
 name: Angela Lam
 image: /images/members/IMG_7376.jpg
-description: Ungredgrad student
+description: Undergraduate student
 role: undergrad
 group: current
 focus: ''
