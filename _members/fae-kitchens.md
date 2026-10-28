@@ -1,7 +1,7 @@
 ---
 name: Fae Kitchens
 image: /images/members/IMG_0875.jpg
-description: Undergrad Student
+description: Undergraduate Student
 role: undergrad
 group: current
 focus: ''
