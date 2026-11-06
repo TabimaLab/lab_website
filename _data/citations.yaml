@@ -1,5 +1,18 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1093/g3journal/jkag256
+  title: "Draft genome assembly of the green-bronze dung beetle,\n               \
+    \     <i>Onthophagus orpheus</i>"
+  authors:
+  - Alexander J Bradshaw
+  - Javier F Tabima
+  - Erin L McCullough
+  publisher: 'G3: Genes, Genomes, Genetics'
+  date: '2026-09-16'
+  link: https://doi.org/hcpn95
+  orcid: 0000-0002-3603-2691
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1002/pro.70826
   title: "Conserved\n                    <scp>IQ</scp>\n                    motifs,\
     \ divergent apo\u2010calmodulin recognition in\n                    <scp>UBE3B</scp>\n\
@@ -16,19 +29,6 @@
   publisher: Protein Science
   date: '2026-10-23'
   link: https://doi.org/hcpn94
-  orcid: 0000-0002-3603-2691
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1093/g3journal/jkag256
-  title: "Draft genome assembly of the green-bronze dung beetle,\n               \
-    \     <i>Onthophagus orpheus</i>"
-  authors:
-  - Alexander J Bradshaw
-  - Javier F Tabima
-  - Erin L McCullough
-  publisher: 'G3: Genes, Genomes, Genetics'
-  date: '2026-09-16'
-  link: https://doi.org/hcpn95
   orcid: 0000-0002-3603-2691
   plugin: orcid.py
   file: orcid.yaml
